@@ -1,0 +1,55 @@
+landscape:
+  - category:
+    name: Adopters
+    subcategories:
+      - subcategory:
+        name: JSON SCHEMA ADOPTERS
+        items:
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/postman
+            description: Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.
+            homepage_url: https://postman.com
+            logo: postman.svg
+            name: Postman
+            project: graduated
+            repo_url: https://github.com/postmanlabs
+            twitter: https://twitter.com/getpostman
+
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/github
+            description: Github is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
+            homepage_url: https://github.com
+            logo: github.svg
+            name: Github
+            project: graduated
+            repo_url: https://github.com/github
+            twitter: https://twitter.com/github
+
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+            description: Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.
+            homepage_url: https://microsoft.com
+            logo: microsoft.svg
+            name: Microsoft
+            project: graduated
+            repo_url: https://github.com/microsoft
+            twitter: https://twitter.com/microsoft
+
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/zapier
+            description: Zapier is an online automation tool that connects your favorite apps, such as Gmail, Slack, Mailchimp, and over 1,500 more. You can connect two or more apps to automate repetitive tasks without coding or relying on developers to build the integration.
+            homepage_url: https://zapier.com/
+            logo: zapier.svg
+            name: Zapier
+            project: graduated
+            repo_url: https://github.com/zapier
+            twitter: https://twitter.com/zapier
+
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/krakend
+            description: KrakenD is an ultra performant API Gateway with middlewares and plugins. It is designed for large companies, so it is scalable and easy to configure. It is a stateless, distributed, high-performance API Gateway that helps you to manage your microservices.
+            homepage_url: https://www.krakend.io/
+            logo: krakend.svg
+            name: krakend
+            project: graduated
+            repo_url: https://github.com/krakend
