@@ -1,0 +1,67 @@
+name: Publish 
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Cache step to cache the installed crates
+      - name: Cache installed crates
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo
+          key: ${{ runner.os }}-crates-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-crates-
+
+      # Install Landscape2 and cache the installation
+      - name: Install Landscape2
+        run: |
+          cargo install --git https://github.com/cncf/landscape2
+        if: steps.cache.outputs.cache-hit != 'true'
+
+      # Cache step to cache the installed Landscape2 binary
+      - name: Cache Landscape2 binary
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/landscape2
+          key: ${{ runner.os }}-landscape2-${{ hashFiles('Cargo.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-landscape2-
+
+      - name: Build Landscape
+        run: |
+          landscape2 build \
+            --data-file data.yml \
+            --settings-file settings.yml \
+            --guide-file guide.yml \
+            --logos-path logos \
+            --output-dir build
+
+      - name: Deploying to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy build --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
