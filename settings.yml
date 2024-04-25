@@ -165,10 +165,6 @@ grid_items_size: large
 #       - <CATEGORY1_NAME>
 #       - <CATEGORY2_NAME>
 #
-groups:
-  - name: Adopters
-    categories:
-      - Adopters
 
 # Header (optional)
 #
