@@ -165,6 +165,17 @@ grid_items_size: large
 #       - <CATEGORY1_NAME>
 #       - <CATEGORY2_NAME>
 #
+groups:
+  - name: JSON Schema Ecosystem
+    categories:
+      - Adopters
+      - Sponsors
+  - name: Adopters
+    categories:
+      - Adopters
+  - name: Sponsors
+    categories:
+      - Sponsors
 
 # Header (optional)
 #
