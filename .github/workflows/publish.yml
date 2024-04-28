@@ -25,31 +25,12 @@ jobs:
         with:
           node-version: 20
 
-      # Cache step to cache the installed crates
-      - name: Cache installed crates
-        uses: actions/cache@v4
-        with:
-          path: ~/.cargo
-          key: ${{ runner.os }}-crates-${{ hashFiles('**/Cargo.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-crates-
-
-      # Install Landscape2 and cache the installation
+     # Install Landscape2 
       - name: Install Landscape2
         run: |
-          cargo install --git https://github.com/cncf/landscape2
-        if: steps.cache.outputs.cache-hit != 'true'
+          curl --proto '=https' --tlsv1.2 -LsSf https://github.com/cncf/landscape2/releases/download/v0.8.1/landscape2-installer.sh | sh
 
-      # Cache step to cache the installed Landscape2 binary
-      - name: Cache Landscape2 binary
-        id: cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cargo/bin/landscape2
-          key: ${{ runner.os }}-landscape2-${{ hashFiles('Cargo.toml') }}
-          restore-keys: |
-            ${{ runner.os }}-landscape2-
-
+     # Build JSON Schema Landscape
       - name: Build Landscape
         run: |
           landscape2 build \
@@ -65,3 +46,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy build --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
