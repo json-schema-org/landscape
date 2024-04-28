@@ -6,50 +6,225 @@ landscape:
         name: JSON SCHEMA ADOPTERS
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/postman
-            description: Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.
-            homepage_url: https://postman.com
-            logo: postman.svg
-            name: Postman
-            project: graduated
-            repo_url: https://github.com/postmanlabs
-            twitter: https://twitter.com/getpostman
-
-          - item:
-            crunchbase: https://www.crunchbase.com/organization/github
-            description: Github is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
+            name: Github
             homepage_url: https://github.com
             logo: github.svg
-            name: Github
-            project: graduated
-            repo_url: https://github.com/github
+            crunchbase: https://www.crunchbase.com/organization/github
             twitter: https://twitter.com/github
+            project_org: https://github.com/github
+            description: Github is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
 
           - item:
-            crunchbase: https://www.crunchbase.com/organization/microsoft
-            description: Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.
-            homepage_url: https://microsoft.com
-            logo: microsoft.svg
-            name: Microsoft
-            project: graduated
-            repo_url: https://github.com/microsoft
-            twitter: https://twitter.com/microsoft
+            name: Cookpad
+            homepage_url: https://cookpad.com/
+            logo: cookpad.svg
+            crunchbase: https://www.crunchbase.com/organization/cookpad
+            twitter: https://twitter.com/cookpadteam
+            project_org: https://github.com/cookpad
+            description: Cookpad is a tech company building a community platform for people to share recipe ideas and cooking tips.
 
           - item:
-            crunchbase: https://www.crunchbase.com/organization/zapier
-            description: Zapier is an online automation tool that connects your favorite apps, such as Gmail, Slack, Mailchimp, and over 1,500 more. You can connect two or more apps to automate repetitive tasks without coding or relying on developers to build the integration.
+            name: Tyler Technology
+            homepage_url: https://www.tylertech.com/
+            logo: tylertech.svg
+            crunchbase: https://www.crunchbase.com/organization/tyler-technologies
+            twitter: https://twitter.com/tylertech
+            project_org: https://github.com/TylerTechnologies
+            description: Tyler Technologies is a software company providing integrated software and technology services to the public sector.
+
+          - item:
+            name: W3C Web of Things
+            homepage_url: https://www.w3.org/WoT/
+            logo: w3c.svg
+            crunchbase: https://www.crunchbase.com/organization/world-wide-web-consortium
+            project_org: https://github.com/w3c
+            description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software.
+
+          - item:
+            name: Remote
+            homepage_url: https://remote.com/
+            logo: remote.svg
+            crunchbase: https://www.crunchbase.com/organization/remote-d596
+            twitter: https://twitter.com/remote
+            project_org: https://github.com/remoteoss
+            description: Remote offers payroll, tax, HR, and compliance solutions for distributed teams.
+
+          - item:
+            name: Postman
+            homepage_url: https://postman.com
+            logo: postman.svg
+            crunchbase: https://www.crunchbase.com/organization/postman
+            twitter: https://twitter.com/getpostman
+            project_org: https://github.com/postmanlabs
+            description: Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.
+
+          - item:
+            name: OpenMetadata
+            homepage_url: https://open-metadata.org/
+            logo: openmetadata.svg
+            crunchbase: https://www.crunchbase.com/organization/collate
+            description: Open Standard for Metadata with a Centralized Metadata Store. Discover, Collaborate and get your Data Right.
+            project_org: https://github.com/open-metadata
+            twitter: https://twitter.com/open_metadata
+
+          - item:
+            name: WunderGraph
+            homepage_url: https://wundergraph.com/
+            logo: wundergraph.svg
+            crunchbase: https://www.crunchbase.com/organization/wundergraph
+            description: WunderGraph is a next generation BFF framework designed to optimize frontend, fullstack, and backend developer workflows.
+            project_org: https://github.com/wundergraph
+            twitter: https://twitter.com/wundergraphcom
+
+          - item:
+            name: Zapier
             homepage_url: https://zapier.com/
             logo: zapier.svg
-            name: Zapier
-            project: graduated
-            repo_url: https://github.com/zapier
+            crunchbase: https://www.crunchbase.com/organization/zapier
+            description: Zapier is an online automation tool that connects your favorite apps, such as Gmail, Slack, Mailchimp, and over 1,500 more. You can connect two or more apps to automate repetitive tasks without coding or relying on developers to build the integration.
+            project_org: https://github.com/zapier
             twitter: https://twitter.com/zapier
 
           - item:
-            crunchbase: https://www.crunchbase.com/organization/krakend
-            description: KrakenD is an ultra performant API Gateway with middlewares and plugins. It is designed for large companies, so it is scalable and easy to configure. It is a stateless, distributed, high-performance API Gateway that helps you to manage your microservices.
+            name: Microsoft
+            homepage_url: https://microsoft.com
+            logo: microsoft.svg
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+            description: Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.
+            project_org: https://github.com/microsoft
+            twitter: https://twitter.com/microsoft
+
+          - item:
+            name: F5
+            homepage_url: https://www.f5.com/
+            logo: f5.svg
+            crunchbase: https://www.crunchbase.com/organization/f5-networks
+            description: F5 Networks provides application security and delivery tools.
+            project_org: https://github.com/F5Networks
+            twitter: https://twitter.com/f5
+
+          - item:
+            name: Automatic Data Processing (ADP)
+            homepage_url: https://www.adp.com/
+            logo: adp.svg
+            crunchbase: https://www.crunchbase.com/organization/automatic-data-processing
+            description: Automatic Data Processing is a management services company that provides payroll, time and attendance, and HR services.
+            project_org: https://github.com/adpllc
+            twitter: https://twitter.com/adp
+
+          - item:
+            name: Manfred
+            homepage_url: https://www.getmanfred.com/
+            logo: manfred.svg
+            crunchbase: https://www.crunchbase.com/organization/manfred
+            description: Manfred focuses on business development tasks by recruiting talented individuals.
+            project_org: https://github.com/getmanfred
+            twitter: https://twitter.com/getmanfred
+
+          - item:
+            name: Cyclops
+            homepage_url: https://cyclops-ui.com/
+            logo: cyclops.svg
+            crunchbase: https://www.crunchbase.com/organization/cyclops-b209
+            description: customizable UI for Kubernetes deployments
+            project_org: https://github.com/cyclops-ui/cyclops
+
+          - item:
+            name: KrakenD
             homepage_url: https://www.krakend.io/
             logo: krakend.svg
-            name: krakend
-            project: graduated
-            repo_url: https://github.com/krakend
+            crunchbase: https://www.crunchbase.com/organization/krakend
+            description: KrakenD is an ultra performant API Gateway with middlewares and plugins. It is designed for large companies, so it is scalable and easy to configure. It is a stateless, distributed, high-performance API Gateway that helps you to manage your microservices.
+            project_org: https://github.com/krakend
+
+          # - item:
+          #   name: Waylit
+          #   homepage_url: https://www.waylit.com/
+          #   logo: waylit.svg
+          #   crunchbase: https://www.crunchbase.com/organization/waylit
+          #   description: WayLit is a full-service business immigration management platform that provides U.S. and global immigration services.
+          #   twitter: https://twitter.com/WayLit_Inc
+
+          - item:
+            name: Invopop
+            homepage_url: https://www.invopop.com/
+            logo: invopop.svg
+            crunchbase: https://www.crunchbase.com/organization/invopop
+            description: Invopop is a developer of invoicing management software.
+            project_org: https://github.com/invopop
+            twitter: https://twitter.com/goinvopop
+
+          - item:
+            name: Stedi
+            homepage_url: https://www.stedi.com/
+            logo: stedi.svg
+            crunchbase: https://www.crunchbase.com/organization/stedi
+            description: A platform of developer-focused building blocks for business integrations.
+            project_org: https://github.com/stedi
+            twitter: https://twitter.com/stedi
+  - category:
+    name: Sponsors
+    subcategories:
+      - subcategory:
+        name: Bronze
+        items:
+          - item:
+            name: AsyncAPI
+            homepage_url: https://www.asyncapi.com/
+            logo: asyncapi.svg
+            crunchbase: https://www.crunchbase.com/organization/asyncapi-initiative
+            twitter: https://twitter.com/AsyncAPISpec
+            project_org: https://github.com/asyncapi
+            description: AsyncAPI Initiative is an open-source API tool to build and maintain event-driven architecture.
+
+          - item:
+            name: Airbnb
+            homepage_url: http://www.airbnb.com/
+            logo: airbnb.svg
+            crunchbase: https://www.crunchbase.com/organization/airbnb
+            twitter: https://twitter.com/airbnb
+            project_org: https://github.com/airbnb
+            description: Airbnb is an online community marketplace for people to list, discover, and book accommodations through mobile phones or the internet.
+
+          - item:
+            name: Postman
+            homepage_url: https://postman.com
+            logo: postman.svg
+            crunchbase: https://www.crunchbase.com/organization/postman
+            twitter: https://twitter.com/getpostman
+            project_org: https://github.com/postmanlabs
+            description: Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.
+
+          - item:
+            name: Endjin
+            homepage_url: https://endjin.com/
+            logo: endjin.svg
+            crunchbase: https://www.crunchbase.com/organization/endjin
+            twitter: https://twitter.com/endjin
+            project_org: https://github.com/endjin
+            description: Endjin is a consultancy that designs a data platform to monitor the oceans in near-real time to prevent illegal fishing.
+
+          - item:
+            name: LLC.org
+            homepage_url: https://www.llc.org/
+            logo: llc.svg
+            organization: { name: "LLC.org" }
+            description: Step-by-step guides for launching an LLC.
+
+          - item:
+            name: VPS Server
+            homepage_url: https://www.vpsserver.com/
+            logo: vps-server.svg
+            crunchbase: https://www.crunchbase.com/organization/vpsserver
+            twitter: https://twitter.com/vpsservercom
+            description: Providing virtual private servers (VPS) with 3-way server replication. Guaranteed the best I/O performance and data protection.
+
+      - subcategory:
+        name: Community
+        items:
+          - item:
+            name: JSON Buddy
+            homepage_url: https://json-buddy.com
+            logo: jsonbuddy.svg
+            organization: { name: "JSONSBuddy" }
+            description: JSONBuddy is a JSON editor and validator for Windows that supports various JSON standards and formats.
