@@ -1,0 +1,50 @@
+name: 🌐 Add Orgnaisation
+description: 🌐 Add a new organisation
+title: "🌐 Add new organisation"
+labels: ["Status: triage"]
+body:
+  - type: input
+    attributes:
+      label: Organisation Name
+      description: Name of organisation goes here
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Organisation Logo
+      description: Logo of organisation goes here
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe about the organisation
+      description: A short description of what organisation is about
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Organisation Github link
+      description: Github link of organisation goes here
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Organisation Twitter link
+      description: Twitter link of organisation goes here
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Organisation Crunchbase link
+      description: Crunchbase link of organisation goes here
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Select in which list organisation is to be added
+      options:
+        - "Adopters List"
+        - "Community List"
+        - "Sponsors List"
+    validations:
+      required: true
