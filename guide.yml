@@ -5,7 +5,7 @@ categories:
 
         This first iteration of the landscape focus on JSON Schema Adopters and Sponsors, however the JSON Schema is huge and we are just getting started to map organizations. 
 
-        If you would like to add an entry, please follow the instructions here. Please open an issue if you have doubts or have a proposal to improve the JSON Schema Landscape please upen an issue ussing [this link](https://github.com/json-schema-org/landscape/issues/new/choose).
+        If you have doubts, have a proposal to improve the JSON Schema Landscape or like to add an entry please create an issue ussing [this link](https://github.com/json-schema-org/landscape/issues/new/choose).
     subcategories:
       - subcategory: "Adopters"
         content: |
