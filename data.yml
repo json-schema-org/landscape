@@ -117,7 +117,7 @@ landscape:
             homepage_url: https://www.getmanfred.com/
             logo: manfred.svg
             crunchbase: https://www.crunchbase.com/organization/manfred
-            description: Manfred focuses on business development tasks by recruiting talented individuals.
+            description: Manfred is the platform that allows you to build your professional career, keeping absolute control of your resume.
             project_org: https://github.com/getmanfred
             twitter: https://twitter.com/getmanfred
 
@@ -137,13 +137,21 @@ landscape:
             description: KrakenD is an ultra performant API Gateway with middlewares and plugins. It is designed for large companies, so it is scalable and easy to configure. It is a stateless, distributed, high-performance API Gateway that helps you to manage your microservices.
             project_org: https://github.com/krakend
 
-          # - item:
-          #   name: Waylit
-          #   homepage_url: https://www.waylit.com/
-          #   logo: waylit.svg
-          #   crunchbase: https://www.crunchbase.com/organization/waylit
-          #   description: WayLit is a full-service business immigration management platform that provides U.S. and global immigration services.
-          #   twitter: https://twitter.com/WayLit_Inc
+          - item:
+            name: Waylit
+            homepage_url: https://www.waylit.com/
+            logo: waylit.svg
+            crunchbase: https://www.crunchbase.com/organization/waylit
+            description: WayLit is a full-service business immigration management platform that provides U.S. and global immigration services.
+            twitter: https://twitter.com/WayLit_Inc
+
+          - item:
+            name: KickstartDS
+            homepage_url: https://www.kickstartds.com/
+            logo: kickstartds.svg
+            description: kickstartDS enables digital teams to easily create and upgrade Design Systems saving tons of time.
+            project_org: https://github.com/kickstartDS/kickstartDS
+            twitter: https://twitter.com/kickstartDS
 
           - item:
             name: Invopop
