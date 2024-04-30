@@ -236,3 +236,14 @@ landscape:
             logo: jsonbuddy.svg
             organization: { name: "JSONSBuddy" }
             description: JSONBuddy is a JSON editor and validator for Windows that supports various JSON standards and formats.
+  - category:
+    name: Tooling
+    subcategories:
+      - subcategory:
+        name: JSON SCHEMA Tooling
+        items:
+          - item:
+            name: JSON Schema Tooling
+            homepage_url: https://json-schema.org/tools
+            logo: tooling.svg
+            description: The JSON Schema tooling created by the Community is a key component of the JSON Schema Ecosystem. Please access the JSON Schema tooling page to discover hundreds of projects to secure your JSON Schema strategy.
