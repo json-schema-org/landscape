@@ -170,6 +170,18 @@ landscape:
             description: A platform of developer-focused building blocks for business integrations.
             project_org: https://github.com/stedi
             twitter: https://twitter.com/stedi
+
+      - subcategory:
+        name: Standards
+        items:
+          - item:
+            name: W3C Web of Things
+            homepage_url: https://www.w3.org/WoT/
+            logo: w3c.svg
+            crunchbase: https://www.crunchbase.com/organization/world-wide-web-consortium
+            project_org: https://github.com/w3c
+            description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software.
+
   - category:
     name: Sponsors
     subcategories:
