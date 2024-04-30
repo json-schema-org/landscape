@@ -1,0 +1,26 @@
+name: 🌐 Add Orgnaisation
+description: 🌐 Add a new organisation
+title: "🌐 Add new organisation"
+labels: ["Status: triage"]
+body:
+  - type: input
+    attributes:
+      label: Organisation Name
+      description: Name of organisation goes here
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe about the organisation
+      description: A short description of what organisation is about
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Select in which list organisation is to be added
+      options:
+        - "Adopters"
+        - "Sponsors"
+        - "Other"
+    validations:
+      required: true
