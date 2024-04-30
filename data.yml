@@ -6,13 +6,13 @@ landscape:
         name: Adopters
         items:
           - item:
-            name: Github
+            name: GitHub
             homepage_url: https://github.com
             logo: github.svg
             crunchbase: https://www.crunchbase.com/organization/github
             twitter: https://twitter.com/github
             project_org: https://github.com/github
-            description: Github is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
+            description: GitHub is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
 
           - item:
             name: Cookpad
