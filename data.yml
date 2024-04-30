@@ -246,4 +246,4 @@ landscape:
             name: JSON Schema Tooling Ecosystem
             homepage_url: https://json-schema.org/tools
             logo: tooling.svg
-            description: The JSON Schema tooling created by the Community is a key component of the JSON Schema Ecosystem. Please access the JSON Schema tooling page to discover hundreds of projects to secure your JSON Schema strategy.
+            description: The JSON Schema tooling created by the Community is a key component of the JSON Schema Ecosystem. Please access the [JSON Schema tooling page](https://json-schema.org/tools) to discover hundreds of projects to secure your JSON Schema strategy.
