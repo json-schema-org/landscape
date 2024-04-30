@@ -1,11 +1,11 @@
 categories:
   - category: "Introduction"
     content: |
-        This is a living segmentation of the evolving JSON Schema Ecosystem. Its creation was inspired by by the amazing work done with different CNCF landscapes.
+        This is a living segmentation of the evolving JSON Schema Ecosystem. Its creation was inspired by by the amazing work done with different CNCF landscapes and the [Landscape2 project](https://github.com/cncf/landscape2).
 
         This first iteration of the landscape focus on JSON Schema Adopters and Sponsors, however the JSON Schema is huge and we are just getting started to map organizations. 
 
-        If you have doubts, have a proposal to improve the JSON Schema Landscape or like to add an entry please create an issue ussing [this link](https://github.com/json-schema-org/landscape/issues/new/choose).
+        If you have doubts, have a proposal to improve the JSON Schema Landscape or like to add your organization please create an issue ussing [this link](https://github.com/json-schema-org/landscape/issues/new/choose).
     subcategories:
       - subcategory: "Adopters"
         content: |
