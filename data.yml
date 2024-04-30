@@ -33,14 +33,6 @@ landscape:
             description: Tyler Technologies is a software company providing integrated software and technology services to the public sector.
 
           - item:
-            name: W3C Web of Things
-            homepage_url: https://www.w3.org/WoT/
-            logo: w3cwot.svg
-            crunchbase: https://www.crunchbase.com/organization/world-wide-web-consortium
-            project_org: https://github.com/w3c
-            description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software.
-
-          - item:
             name: Remote
             homepage_url: https://remote.com/
             logo: remote.svg
@@ -177,7 +169,7 @@ landscape:
           - item:
             name: W3C Web of Things
             homepage_url: https://www.w3.org/WoT/
-            logo: w3c.svg
+            logo: w3cwot.svg
             crunchbase: https://www.crunchbase.com/organization/world-wide-web-consortium
             project_org: https://github.com/w3c
             description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software.
