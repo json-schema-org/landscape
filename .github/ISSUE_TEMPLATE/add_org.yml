@@ -43,8 +43,8 @@ body:
     attributes:
       label: Select in which list organisation is to be added
       options:
-        - "Adopters List"
-        - "Community List"
-        - "Sponsors List"
+        - "Adopters"
+        - "Sponsors"
+        - "Other"
     validations:
       required: true
