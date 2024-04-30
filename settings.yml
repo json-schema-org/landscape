@@ -170,12 +170,16 @@ groups:
     categories:
       - Adopters
       - Sponsors
+      - Tools
   - name: Adopters
     categories:
       - Adopters
   - name: Sponsors
     categories:
       - Sponsors
+  - name: Tools
+    categories:
+      - Tools
 
 # Header (optional)
 #

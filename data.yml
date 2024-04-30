@@ -3,7 +3,7 @@ landscape:
     name: Adopters
     subcategories:
       - subcategory:
-        name: JSON SCHEMA ADOPTERS
+        name: Adopters
         items:
           - item:
             name: Github
@@ -237,10 +237,10 @@ landscape:
             organization: { name: "JSONSBuddy" }
             description: JSONBuddy is a JSON editor and validator for Windows that supports various JSON standards and formats.
   - category:
-    name: Tooling
+    name: Tools
     subcategories:
       - subcategory:
-        name: JSON SCHEMA Tooling
+        name: Tools
         items:
           - item:
             name: JSON Schema Tooling
