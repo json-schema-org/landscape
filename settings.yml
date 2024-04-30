@@ -9,7 +9,7 @@
 #
 # foundation: <FOUNDATION_NAME>
 #
-foundation: JSON-Schema-Orgs
+foundation: JSON Schema
 
 # Url (required)
 #
@@ -17,7 +17,7 @@ foundation: JSON-Schema-Orgs
 #
 # url: <LANDSCAPE_URL>
 #
-url: http://127.0.0.1:8000
+url: https://landscape.json-schema.org
 
 # Analytics (optional)
 #
@@ -188,7 +188,7 @@ groups:
 #
 header:
   links:
-    github: "https://github.com/json-schema-org"
+    github: "https://github.com/json-schema-org/landscape"
   logo: "https://json-schema.org/img/logos/logo-blue.svg"
 
 # Images (optional)
