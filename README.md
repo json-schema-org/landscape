@@ -32,7 +32,7 @@ We're thrilled to announce the launch of the JSON Schema Landscape! This compreh
     * Improving the user interface
 
 ## License
-The contents of this repository are licensed under either the BSD 3-clause license or the Academic Free License v3.0. See the license file for more details.
+The contents of this repository are licensed under either the BSD 3-clause license or the Academic Free License v3.0. See the [license file](https://github.com/json-schema-org/website/blob/main/CONTRIBUTING.md#-license) for more details.
 
 
 ## Contact
