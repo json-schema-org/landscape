@@ -3,16 +3,16 @@ landscape:
     name: Adopters
     subcategories:
       - subcategory:
-        name: JSON SCHEMA ADOPTERS
+        name: Adopters
         items:
           - item:
-            name: Github
+            name: GitHub
             homepage_url: https://github.com
             logo: github.svg
             crunchbase: https://www.crunchbase.com/organization/github
             twitter: https://twitter.com/github
             project_org: https://github.com/github
-            description: Github is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
+            description: GitHub is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
 
           - item:
             name: Cookpad
@@ -35,7 +35,7 @@ landscape:
           - item:
             name: W3C Web of Things
             homepage_url: https://www.w3.org/WoT/
-            logo: w3c.svg
+            logo: w3cwot.svg
             crunchbase: https://www.crunchbase.com/organization/world-wide-web-consortium
             project_org: https://github.com/w3c
             description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software.
@@ -236,3 +236,14 @@ landscape:
             logo: jsonbuddy.svg
             organization: { name: "JSONSBuddy" }
             description: JSONBuddy is a JSON editor and validator for Windows that supports various JSON standards and formats.
+  - category:
+    name: Tools
+    subcategories:
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: JSON Schema Tooling Ecosystem
+            homepage_url: https://json-schema.org/tools
+            logo: tooling.svg
+            description: Discover JSON Schema tooling to help your organization leverage the benefits of JSON Schema. Because JSON Schema is much more than a Specification, it is a vibrant ecosystem of Validators, Generators, Linters, and other JSON Schema Utilities made by this amazing Community.
