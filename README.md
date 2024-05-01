@@ -22,6 +22,39 @@ We're thrilled to announce the launch of the JSON Schema Landscape! This compreh
 
  Visit the deployed website at [https://landscape.json-schema.org/](https://landscape.json-schema.org/) and delve into the rich ecosystem of tools and resources available.
 
+## Run Locally
+
+This section is for those interested in contributing or running the landscape website locally.
+
+**Prerequisites:**
+
+* Install Landscape2 first. Find pre-built versions for your system on the Landscape2 releases page: [https://github.com/cncf/landscape2](https://github.com/cncf/landscape2)
+
+**Building the Website:**
+
+The build process creates the website from data files. Run this command in your terminal:
+
+```bash
+landscape2 build \
+  --data-file data.yml \
+  --settings-file settings.yml \
+  --guide-file guide.yml \
+  --logos-path logos \
+  --output-dir build
+```
+
+**Running the Website Locally:**
+
+Once built, use Landscape2 to serve the website locally:
+
+```bash
+landscape2 serve --landscape-dir build
+```
+
+This starts a local server and opens the website in your web browser at http://127.0.0.1:8000. 
+
+
+
 ## Contributing
 
 * We warmly welcome your contributions to this project!  A dedicated [CONTRIBUTING.md](CONTRIBUTING.md) file outlines the various ways you can get involved, including:
