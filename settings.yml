@@ -205,7 +205,7 @@ header:
 #
 
 images:
-  favicon: ""
+  favicon: "https://raw.githubusercontent.com/json-schema-org/website/main/public/favicon.ico"
 
 # Name of the members category (optional)
 #
