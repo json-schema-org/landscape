@@ -170,6 +170,14 @@ landscape:
             description: A platform of developer-focused building blocks for business integrations.
             project_org: https://github.com/stedi
             twitter: https://twitter.com/stedi
+
+          - item:
+            name: Dashjoin
+            homepage_url: https://dashjoin.com/
+            logo: dashjoin.svg
+            description: Dashjoin Is an Open Source & Cloud Native Low Code Development and Integration Platform That Helps Teams Deliver AI Empowered Applications Faster. 
+            project_org: https://github.com/dashjoin
+            twitter: https://twitter.com/dashjoin
   - category:
     name: Sponsors
     subcategories:
