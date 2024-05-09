@@ -204,6 +204,9 @@ header:
 #   open_graph: <OPEN_GRAPH_IMAGE_URL>
 #
 
+images:
+  favicon: "https://raw.githubusercontent.com/json-schema-org/website/main/public/favicon.ico"
+
 # Name of the members category (optional)
 #
 # Landscapes usually have a special category dedicated to the members of the
