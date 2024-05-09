@@ -8,7 +8,8 @@ This document outlines how you can get involved and help improve the JSON Schema
 - [How to Contribute 🚀](#how-to-contribute-🚀)
     - [Reporting Bugs 🐞](#reporting-bugs-🐞)
     - [Suggesting Features 💡](#suggesting-features-💡)
-    - [Improving the Website 🌐](#improving-the-website-🌐)
+    - [Improving the Docs 🚧](#improving-the-docs-🚧)
+    - [Improving the Landscape 🌐](#improving-the-landscape-🌐)
 - [Pull Requests 📬](#pull-requests-📬)
 - [License 📄](#license-📄)
 - [Feedback 💬](#feedback-💬)
@@ -32,34 +33,31 @@ Encountered a bug on the website? Please use the issue templates to report it. T
 
 ### Suggesting Features 💡 
 
-Do you have an idea for a new feature that could improve the website? Open an issue to share your suggestion.  Refer to the "Improving the Website" section for details on creating issues.
+Do you have an idea for a new feature that could improve the website? Open an issue to share your suggestion.  Refer to the "Improving the Landscape" section for details on creating issues.
 
-## Improving the Website 🌐
+### Improving the Docs 🚧
+
+We welcome your help in making the JSON Schema Landscape documentation even better! Here's how you can contribute:
+
+* **Spot a mistake? Have a suggestion for clarity?** You can directly edit the Markdown files used for the documentation in a pull request.
+
+
+* **Limited content type changes:** If you have ideas for improvements that don't involve code changes (like typos, grammar, or better explanations), you can follow these steps:
+
+    1. **Identify your contribution:** Is it a documentation fix, improved clarity, or a suggestion for better phrasing? 
+    1. **Make your changes:** Edit the relevant Markdown file.
+    1. **Create a pull request:** Submit a pull request with your changes and a clear description of the improvements.
+
+## Improving the Landscape 🌐
 
 We welcome your help in making the JSON Schema Landscape website even better! Here's how you can contribute:
 
-#### **Improve the Content:**
-
-* See a mistake in the documentation? Have a suggestion to make it clearer? You can directly edit the Markdown files (used for the readme and contributing guide) in a pull request.
-* **Note:** Most website content uses YAML files, a data format, instead of Markdown (used for writing).
-
-**Limited Website Functionality Changes:**
-
 The website is built with a tool called CNCF Landscape, designed for managing this type of information. While large code edits aren't possible, some customization is achievable through configuration and themes.
 
-* Have an idea for a new feature that works within CNCF Landscape's limitations? Open an issue to discuss your proposal. We use a project board to track website contribution tasks: link to project board: [https://github.com/orgs/json-schema-org/projects/19](https://github.com/orgs/json-schema-org/projects/19).
+* Have an idea for a new feature that works within CNCF Landscape's limitations? Open an issue to discuss your proposal. We use a project board to track website contribution tasks: [link to project board](https://github.com/orgs/json-schema-org/projects/19).
 
-**Getting Started with Content or Design:**
 
-These steps are for improvements that don't involve code changes:
 
-1. **Identify your contribution:**
-    * Is it a documentation fix?
-    * Do you have a design suggestion?
-1. **Make your changes:**
-    * Content: Edit the relevant Markdown or YAML file [(refer to the note above)](#improve-the-content).
-
-1. **Create a pull request:** Submit a pull request with your changes and a clear description of the improvements.
 
 ## Pull Requests 📬
 
