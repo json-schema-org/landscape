@@ -11,7 +11,7 @@ landscape:
             logo: w3cwot.svg
             crunchbase: https://www.crunchbase.com/organization/world-wide-web-consortium
             project_org: https://github.com/w3c
-            description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software.
+            description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software).
           - item:
             name: AsyncAPI
             homepage_url: https://www.asyncapi.com/
