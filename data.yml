@@ -3,6 +3,32 @@ landscape:
     name: Adopters
     subcategories:
       - subcategory:
+        name: Standards
+        items:
+          - item:
+            name: W3C Web of Things
+            homepage_url: https://www.w3.org/WoT/
+            logo: w3cwot.svg
+            crunchbase: https://www.crunchbase.com/organization/world-wide-web-consortium
+            project_org: https://github.com/w3c
+            description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software.
+          - item:
+            name: AsyncAPI
+            homepage_url: https://www.asyncapi.com/
+            logo: asyncapi.svg
+            crunchbase: https://www.crunchbase.com/organization/asyncapi-initiative
+            twitter: https://twitter.com/AsyncAPISpec
+            project_org: https://github.com/asyncapi
+            description: The AsyncAPI Initiative is a specification and growing set of open-source tools to help developers define, build, and maintain asynchronous APIs and EDAs.
+          - item:
+            name: OpenAPI
+            homepage_url: https://www.openapis.org/
+            logo: openapi.svg
+            crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
+            twitter: https://twitter.com/OpenApiSpec
+            project_org: https://github.com/oai
+            description: The world's most widely used API description standard. The OpenAPI Specification provides a formal standard for describing HTTP APIs.
+      - subcategory:
         name: Adopters
         items:
           - item:
@@ -31,14 +57,6 @@ landscape:
             twitter: https://twitter.com/tylertech
             project_org: https://github.com/TylerTechnologies
             description: Tyler Technologies is a software company providing integrated software and technology services to the public sector.
-
-          - item:
-            name: W3C Web of Things
-            homepage_url: https://www.w3.org/WoT/
-            logo: w3cwot.svg
-            crunchbase: https://www.crunchbase.com/organization/world-wide-web-consortium
-            project_org: https://github.com/w3c
-            description: The World Wide Web Consortium (W3C) develops interoperable technologies (specifications, guidelines, software.
 
           - item:
             name: Remote
@@ -191,7 +209,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/asyncapi-initiative
             twitter: https://twitter.com/AsyncAPISpec
             project_org: https://github.com/asyncapi
-            description: AsyncAPI Initiative is an open-source API tool to build and maintain event-driven architecture.
+            description: The AsyncAPI Initiative is a specification and growing set of open-source tools to help developers define, build, and maintain asynchronous APIs and EDAs.
 
           - item:
             name: Airbnb
