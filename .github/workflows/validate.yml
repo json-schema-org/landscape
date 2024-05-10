@@ -1,0 +1,72 @@
+name: Validate
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: 
+
+jobs:
+  validate-landscape-data:
+    runs-on: ubuntu-latest
+    name: "Validate landscape data file"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cncf/landscape2-validate-action@v2
+        with:
+          target_kind: data
+          target_path: ./landscape.yml
+
+  validate-landscape-settings:
+    runs-on: ubuntu-latest
+    name: "Validate landscape settings file"
+    steps:
+    - uses: actions/checkout@v4
+    - uses: cncf/landscape2-validate-action@v2
+      with:
+        target_kind: settings
+        target_path: ./settings.yml
+
+  validate-landscape-guide:
+    runs-on: ubuntu-latest
+    name: "Validate landscape guide file"
+    steps:
+    - uses: actions/checkout@v4
+    - uses: cncf/landscape2-validate-action@v2
+      with:
+        target_kind: guide
+        target_path: ./guide.yml
+
+  build-landscape:
+    runs-on: ubuntu-latest
+    name: Build landscape
+    needs: [validate-landscape-data, validate-landscape-settings, validate-landscape-guide]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+     # Install Landscape2 
+      - name: Install Landscape2
+        run: |
+          curl --proto '=https' --tlsv1.2 -LsSf https://github.com/cncf/landscape2/releases/download/v0.8.1/landscape2-installer.sh | sh
+
+     # Build Landscape
+      - name: Build Landscape
+        env: 
+          GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
+          CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
+        run: |
+          landscape2 build \
+            --data-file landscape.yml \
+            --settings-file settings.yml \
+            --guide-file guide.yml \
+            --logos-path logos \
+            --output-dir build
