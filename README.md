@@ -36,7 +36,7 @@ The build process creates the website from data files. Run this command in your 
 
 ```bash
 landscape2 build \
-  --data-file data.yml \
+  --data-file landscape.yml \
   --settings-file settings.yml \
   --guide-file guide.yml \
   --logos-path logos \
