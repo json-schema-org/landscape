@@ -75,4 +75,4 @@ The contents of this repository are [licensed under](https://github.com/json-sch
 
 ## Feedback 💬
 
-We welcome feedback on this contribution process. You can share your thoughts informally on our Slack server: link to Slack workspace: [https://json-schema.org/slack](https://json-schema.org/slack) or formally through our Community Discussions: link to Discussions: [https://github.com/json-schema-org/community/discussions](https://github.com/json-schema-org/community/discussions).
+We welcome feedback on this contribution process. You can share your thoughts informally on our [Slack server](https://json-schema.org/slack) or formally through our [Community Discussions](https://github.com/orgs/json-schema-org/discussions).
