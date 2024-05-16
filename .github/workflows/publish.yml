@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -32,9 +29,12 @@ jobs:
 
      # Build JSON Schema Landscape
       - name: Build Landscape
+        env: 
+          GITHUB_TOKENS: ${{ secrets.GITHUB_TOKEN }}
+          CRUNCHBASE_API_KEY: ${{ secrets.CRUNCHBASE_API_KEY }}
         run: |
           landscape2 build \
-            --data-file data.yml \
+            --data-file landscape.yml \
             --settings-file settings.yml \
             --guide-file guide.yml \
             --logos-path logos \
@@ -46,4 +46,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy build --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
-        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+        if: github.repository_owner == 'json-schema-org'
