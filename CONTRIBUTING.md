@@ -4,15 +4,15 @@ This document outlines how you can get involved and help improve the JSON Schema
 
 ## Table of Contents
 
-- [Code of Conduct 📜](#code-of-conduct) 📜
-- [How to Contribute 🚀](#how-to-contribute) 🚀
-    - [Reporting Bugs 🐞](#reporting-bugs) 🐞
-    - [Suggesting Features 💡](#suggesting-features) 💡
-    - [Improving the Docs 🚧](#improving-the-docs) 🚧
-    - [Improving the Landscape 🌐](#improving-the-landscape) 🌐
-- [Pull Requests 📬](#pull-requests) 📬
-- [License 📄](#license) 📄
-- [Feedback 💬](#feedback) 💬
+- [Code of Conduct 📜](#code-of-conduct-)
+- [How to Contribute 🚀](#how-to-contribute-)
+    - [Reporting Bugs 🐞](#reporting-bugs-)
+    - [Suggesting Features 💡](#suggesting-features-)
+    - [Improving the Docs 🚧](#improving-the-docs-)
+    - [Improving the Landscape 🌐](#improving-the-landscape-)
+- [Pull Requests 📬](#pull-requests-)
+- [License 📄](#license-)
+- [Feedback 💬](#feedback-)
 
 ##  Code of Conduct 📜
 
@@ -23,9 +23,9 @@ Before contributing, please familiarize yourself with our [Code of Conduct](http
 
 There are several ways you can contribute to the JSON Schema website:
 
-* [**Reporting Bugs** 🐞](#reporting-bugs-🐞)
-* [**Suggesting Features** 💡](#suggesting-features-💡)
-* [**Improving the Website** 🌐](#improving-the-website-🌐)
+* [**Reporting Bugs** 🐞](#reporting-bugs-)
+* [**Suggesting Features** 💡](#suggesting-features-)
+* [**Improving the Landscape** 🌐](#improving-the-landscape-)
 
 ### Reporting Bugs 🐞
 
@@ -75,4 +75,4 @@ The contents of this repository are [licensed under](https://github.com/json-sch
 
 ## Feedback 💬
 
-We welcome feedback on this contribution process. You can share your thoughts informally on our Slack server: link to Slack workspace: [https://json-schema.org/slack](https://json-schema.org/slack) or formally through our Community Discussions: link to Discussions: [https://github.com/json-schema-org/community/discussions](https://github.com/json-schema-org/community/discussions).
+We welcome feedback on this contribution process. You can share your thoughts informally on our [Slack server](https://json-schema.org/slack) or formally through our [Community Discussions](https://github.com/orgs/json-schema-org/discussions).
