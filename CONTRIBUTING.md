@@ -4,15 +4,15 @@ This document outlines how you can get involved and help improve the JSON Schema
 
 ## Table of Contents
 
-- [Code of Conduct 📜](#code-of-conduct) 📜
-- [How to Contribute 🚀](#how-to-contribute) 🚀
-    - [Reporting Bugs 🐞](#reporting-bugs) 🐞
-    - [Suggesting Features 💡](#suggesting-features) 💡
-    - [Improving the Docs 🚧](#improving-the-docs) 🚧
-    - [Improving the Landscape 🌐](#improving-the-landscape) 🌐
-- [Pull Requests 📬](#pull-requests) 📬
-- [License 📄](#license) 📄
-- [Feedback 💬](#feedback) 💬
+- [Code of Conduct 📜](#code-of-conduct-)
+- [How to Contribute 🚀](#how-to-contribute-)
+    - [Reporting Bugs 🐞](#reporting-bugs-)
+    - [Suggesting Features 💡](#suggesting-features-)
+    - [Improving the Docs 🚧](#improving-the-docs-)
+    - [Improving the Landscape 🌐](#improving-the-landscape-)
+- [Pull Requests 📬](#pull-requests-)
+- [License 📄](#license-)
+- [Feedback 💬](#feedback-)
 
 ##  Code of Conduct 📜
 
@@ -23,9 +23,9 @@ Before contributing, please familiarize yourself with our [Code of Conduct](http
 
 There are several ways you can contribute to the JSON Schema website:
 
-* [**Reporting Bugs** 🐞](#reporting-bugs-🐞)
-* [**Suggesting Features** 💡](#suggesting-features-💡)
-* [**Improving the Website** 🌐](#improving-the-website-🌐)
+* [**Reporting Bugs** 🐞](#reporting-bugs-)
+* [**Suggesting Features** 💡](#suggesting-features-)
+* [**Improving the Website** 🌐](#improving-the-website-)
 
 ### Reporting Bugs 🐞
 
