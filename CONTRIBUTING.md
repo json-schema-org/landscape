@@ -25,7 +25,7 @@ There are several ways you can contribute to the JSON Schema website:
 
 * [**Reporting Bugs** 🐞](#reporting-bugs-)
 * [**Suggesting Features** 💡](#suggesting-features-)
-* [**Improving the Website** 🌐](#improving-the-website-)
+* [**Improving the Landscape** 🌐](#improving-the-landscape-)
 
 ### Reporting Bugs 🐞
 
