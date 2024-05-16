@@ -2,13 +2,9 @@
 
 [![JSON Schema logo - Build more, break less, empower others.](https://raw.githubusercontent.com/json-schema-org/.github/main/assets/json-schema-banner.png)](https://json-schema.org) 
 
-We're thrilled to announce the launch of the JSON Schema Landscape! This comprehensive resource is designed to be your one-stop shop for exploring the ever-evolving JSON Schema ecosystem.
+We're thrilled to announce the launch of the JSON Schema Landscape! This comprehensive resource catalogs and organizes the key players in the JSON Schema ecosystem. 
 
-## The JSON Schema Landscape: Your Map to the Ecosystem
-
-This resource catalogs and organizes the key players in the JSON Schema ecosystem. 
-
-## Dive deeper! Explore the Extensive JSON Schema Ecosystem
+## Explore the Extensive JSON Schema Ecosystem
 
 Visit the deployed website at [https://landscape.json-schema.org/](https://landscape.json-schema.org/) and delve into the rich ecosystem of tools and resources available.
 
