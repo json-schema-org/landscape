@@ -204,7 +204,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/helm
             description: Helm is an open source package manager for Kubernetes that simplifies the deployment and management of applications.
             project_org: https://github.com/helm
-            twitter: https://x.com/helmpack
+            twitter: https://twitter.com/helmpack
 
   - category:
     name: Sponsors
