@@ -211,7 +211,7 @@ landscape:
             homepage_url: https://www.authsignal.com/
             logo: authsignal.svg
             crunchbase: https://www.crunchbase.com/organization/authsignal
-            description: Authsignal is multi-factor authentication (passwordless authentication) as a service.
+            description: Authsignal is a drop-in digital identity authentication platform.
             project_org: https://github.com/authsignal
             twitter: https://twitter.com/authsignal
 
