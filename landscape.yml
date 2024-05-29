@@ -206,6 +206,15 @@ landscape:
             project_org: https://github.com/helm
             twitter: https://twitter.com/helmpack
 
+          - item:
+            name: Authsignal
+            homepage_url: https://www.authsignal.com/
+            logo: authsignal.svg
+            crunchbase: https://www.crunchbase.com/organization/authsignal
+            description: Authsignal is multi-factor authentication (passwordless authentication) as a service.
+            project_org: https://github.com/authsignal
+            twitter: https://twitter.com/authsignal
+
   - category:
     name: Sponsors
     subcategories:
