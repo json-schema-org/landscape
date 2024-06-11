@@ -31,7 +31,7 @@ landscape:
           - item:
             name: Serverless Workflow
             homepage_url: https://serverlessworkflow.io/
-            logo: serverless-workflow.svg
+            logo: serverless-workflow.png
             project_org: https://github.com/serverlessworkflow
             description: Serverless Workflow presents a vendor-neutral, open-source, and entirely community-driven ecosystem tailored for defining and executing DSL-based workflows in the realm of Serverless technology.
             
