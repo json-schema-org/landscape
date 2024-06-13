@@ -231,6 +231,15 @@ landscape:
             project_org: https://github.com/node-red
             twitter: https://twitter.com/nodered
 
+          - item:
+            name: Endjin
+            homepage_url: https://endjin.com/
+            logo: endjin.svg
+            crunchbase: https://www.crunchbase.com/organization/endjin
+            twitter: https://twitter.com/endjin
+            project_org: https://github.com/endjin
+            description: Endjin is a consultancy that designs a data platform to monitor the oceans in near-real time to prevent illegal fishing.
+
   - category:
     name: Sponsors
     subcategories:
