@@ -240,6 +240,12 @@ landscape:
             project_org: https://github.com/endjin
             description: Endjin is a consultancy that designs a data platform to monitor the oceans in near-real time to prevent illegal fishing.
 
+          - item:
+            name: Smart Data Models
+            homepage_url: https://smartdatamodels.org/
+            logo: smartdatamodels.svg
+            project_org: https://github.com/smart-data-models
+            description: Smart Data Models is a collaborative program to provide data models for digital twins and data spaces.
   - category:
     name: Sponsors
     subcategories:
