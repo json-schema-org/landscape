@@ -6,10 +6,10 @@ This document outlines how you can get involved and help improve the JSON Schema
 
 - [Code of Conduct 📜](#code-of-conduct-)
 - [How to Contribute 🚀](#how-to-contribute-)
+    - [Adding a new Organization 🌐](#adding-a-new-organization-)
     - [Reporting Bugs 🐞](#reporting-bugs-)
     - [Suggesting Features 💡](#suggesting-features-)
     - [Improving the Docs 🚧](#improving-the-docs-)
-    - [Improving the Landscape 🌐](#improving-the-landscape-)
 - [Pull Requests 📬](#pull-requests-)
 - [License 📄](#license-)
 - [Feedback 💬](#feedback-)
@@ -23,9 +23,30 @@ Before contributing, please familiarize yourself with our [Code of Conduct](http
 
 There are several ways you can contribute to the JSON Schema website:
 
+* [**Adding a new Organization** 🐞](#adding-a-new-organization-)
 * [**Reporting Bugs** 🐞](#reporting-bugs-)
 * [**Suggesting Features** 💡](#suggesting-features-)
 * [**Improving the Landscape** 🌐](#improving-the-landscape-)
+
+## Adding a new Organization 🌐
+
+Do you know about an Organization using JSON Schema? Add it!!
+
+You can add a new Organization by using the [Adopters form](https://forms.gle/vyFskw1RshJ55LY46) or by submitting a PR to edit landscape.yml file. If your Organization is listed but you like it to be removed, please submit a PR removing it.
+
+Guidelines: Please follow [the CNCF Landscape guidelines](https://github.com/cncf/landscapeapp?tab=readme-ov-file#adding-and-managing-landscape-entries) to provide the right information. 
+
+Looking for extra credit? We also do [case studies](https://github.com/orgs/json-schema-org/projects/8/views/2) and accept sponsorship via [Open Collective](https://opencollective.com/json-schema).
+<details>
+<summary>Find out more about case studies</summary>
+If your Organization would like to share more about what you're doing in public, there's a good chance we'd love to collaborate on a case study.
+
+Please reach out to us via [our Slack](https://json-schema.org/slack) or creating a new Issue in this repo.
+
+From experience, these case studies can take some time to develop, write, get approved, and published. It's best if you can find out for sure if you can publish a case study with us as early as possible. If you're at a big organization, you'll likely have to get approval from people who have no idea what you're talking about. Here's some context you can share with them.
+
+By supporting JSON Schema with a case study, you are documenting its success and your smarts in picking it as a solution. JSON Schema case studies help justify the ongoing financial support required to mature, develop, and support the JSON Schema ecosystem. Case studies also demonstrate the strength of the JSON Schema ecosystem in production today. The next case study could be you.
+</details>
 
 ### Reporting Bugs 🐞
 
@@ -33,7 +54,9 @@ Encountered a bug on the website? Please use the issue templates to report it. T
 
 ### Suggesting Features 💡 
 
-Do you have an idea for a new feature that could improve the website? Open an issue to share your suggestion.  Refer to the "Improving the Landscape" section for details on creating issues.
+The website is built with a tool called CNCF Landscape, designed for managing this type of information. While large code edits aren't possible, some customization is achievable through configuration and themes.
+
+Have an idea for a new feature that works within CNCF Landscape's limitations? Open an issue to discuss your proposal. We use a project board to track website contribution tasks: [link to project board](https://github.com/orgs/json-schema-org/projects/19).
 
 ### Improving the Docs 🚧
 
@@ -47,17 +70,6 @@ We welcome your help in making the JSON Schema Landscape documentation even bett
     1. **Identify your contribution:** Is it a documentation fix, improved clarity, or a suggestion for better phrasing? 
     1. **Make your changes:** Edit the relevant Markdown file.
     1. **Create a pull request:** Submit a pull request with your changes and a clear description of the improvements.
-
-## Improving the Landscape 🌐
-
-We welcome your help in making the JSON Schema Landscape website even better! Here's how you can contribute:
-
-The website is built with a tool called CNCF Landscape, designed for managing this type of information. While large code edits aren't possible, some customization is achievable through configuration and themes.
-
-* Have an idea for a new feature that works within CNCF Landscape's limitations? Open an issue to discuss your proposal. We use a project board to track website contribution tasks: [link to project board](https://github.com/orgs/json-schema-org/projects/19).
-
-
-
 
 ## Pull Requests 📬
 
