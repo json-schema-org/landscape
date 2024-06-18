@@ -34,7 +34,13 @@ landscape:
             logo: serverless-workflow.svg
             project_org: https://github.com/serverlessworkflow
             description: Serverless Workflow presents a vendor-neutral, open-source, and entirely community-driven ecosystem tailored for defining and executing DSL-based workflows in the realm of Serverless technology.
-            
+          - item:
+            name: '{json:api}'
+            homepage_url: https://jsonapi.org/
+            logo: json-api.svg
+            project_org: https://github.com/json-api
+            description: A specification for building JSON APIs.
+
       - subcategory:
         name: Adopters
         items:
