@@ -252,6 +252,20 @@ landscape:
             logo: smartdatamodels.svg
             project_org: https://github.com/smart-data-models
             description: Smart Data Models is a collaborative program to provide data models for digital twins and data spaces.
+
+          - item:
+            name: Schema Store
+            homepage_url: https://www.schemastore.org/json/
+            logo: json-store.svg
+            project_org: https://github.com/schemastore/schemastore/
+            description: The repository is a universal JSON schema store, where schemas for popular JSON documents can be found.
+
+          - item:
+            name: Renovate Bot
+            homepage_url: https://docs.renovatebot.com/
+            logo: renovatebot.svg
+            project_org: https://github.com/renovatebot/renovate
+            description: Automated dependency updates. Multi-platform and multi-language..
   - category:
     name: Sponsors
     subcategories:
