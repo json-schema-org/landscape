@@ -35,7 +35,7 @@ landscape:
             project_org: https://github.com/serverlessworkflow
             description: Serverless Workflow presents a vendor-neutral, open-source, and entirely community-driven ecosystem tailored for defining and executing DSL-based workflows in the realm of Serverless technology.
           - item:
-            name: '{json:api}'
+            name: "{json:api}"
             homepage_url: https://jsonapi.org/
             logo: json-api.svg
             project_org: https://github.com/json-api
@@ -206,7 +206,7 @@ landscape:
             name: Dashjoin
             homepage_url: https://dashjoin.com/
             logo: dashjoin.svg
-            description: Dashjoin Is an Open Source & Cloud Native Low Code Development and Integration Platform That Helps Teams Deliver AI Empowered Applications Faster. 
+            description: Dashjoin Is an Open Source & Cloud Native Low Code Development and Integration Platform That Helps Teams Deliver AI Empowered Applications Faster.
             project_org: https://github.com/dashjoin
             twitter: https://twitter.com/dashjoin
 
@@ -252,6 +252,34 @@ landscape:
             logo: smartdatamodels.svg
             project_org: https://github.com/smart-data-models
             description: Smart Data Models is a collaborative program to provide data models for digital twins and data spaces.
+
+          - item:
+            name: Schema Store
+            homepage_url: https://www.schemastore.org/json/
+            logo: json-store.svg
+            project_org: https://github.com/schemastore/schemastore/
+            description: The repository is a universal JSON schema store, where schemas for popular JSON documents can be found.
+
+          - item:
+            name: Renovate Bot
+            homepage_url: https://docs.renovatebot.com/
+            logo: renovatebot.svg
+            project_org: https://github.com/renovatebot/renovate
+            description: Automated dependency updates. Multi-platform and multi-language..
+
+          - item:
+            name: Vercel Turbo
+            homepage_url: https://turbo.build/repo
+            logo: turbo.svg
+            project_org: https://github.com/vercel/turbo
+            description: A high-performance build system for JavaScript and TypeScript codebases.
+
+          - item:
+            name: ShadCn
+            homepage_url: https://ui.shadcn.com/
+            logo: shadcn.svg
+            project_org: https://github.com/shadcn-ui/ui
+            description: Beautifully designed components that you can copy and paste into your apps.
   - category:
     name: Sponsors
     subcategories:
