@@ -244,6 +244,12 @@ categories:
             logo: shadcn.svg
             project_org: https://github.com/shadcn-ui/ui
             description: Beautifully designed components that you can copy and paste into your apps.
+          
+          - name: aspectivo
+            homepage_url: https://aspectivo.ai/
+            logo: aspectivo.svg
+            description: aspectivo provides AI solutions and AI orchestration tools.
+            crunchbase: https://www.crunchbase.com/organization/aspectivo
 
   - name: Sponsors
     subcategories:
