@@ -251,6 +251,14 @@ categories:
             description: aspectivo provides AI solutions and AI orchestration tools.
             crunchbase: https://www.crunchbase.com/organization/aspectivo
 
+          - name: StackHawk
+            homepage_url: https://www.stackhawk.com/
+            logo: stackhawk.svg
+            crunchbase: https://www.crunchbase.com/organization/stackhawk
+            twitter: https://twitter.com/stackhawk
+            project_org: https://github.com/kaakaww
+            description: 🦅 StackHawk provides dynamic application vulnerability scanning from dev to prod. KAAKAWW!
+
   - name: Sponsors
     subcategories:
       - name: Bronze
