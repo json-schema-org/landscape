@@ -26,7 +26,7 @@ toolingData.forEach((tool) => {
       name: `${tool.name}${counter} | ${toolingTypeTitle}`,
       homepage_url: "https://json-schema.org/tools",
       logo: "tooling.svg",
-      description: tool.description ?? `JSON Schema Tool: ${toolingTypeTitle}`,
+      description: tool.description || `JSON Schema Tool: ${toolingTypeTitle}`,
     });
     counter++;
   });
