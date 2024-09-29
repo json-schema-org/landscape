@@ -61,3 +61,8 @@ $RECYCLE.BIN/
 
 # Project specific
 build
+
+**/node_modules
+package.json
+package-lock.json
+tooling-data.yaml
