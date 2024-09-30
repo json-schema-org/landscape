@@ -61,33 +61,94 @@ Object.entries(toolsByToolingType).forEach(([subcategory, tools]) => {
 saveYaml(landscapeData, landscapeFilePath);
 
 async function generateLogo(toolName, generatedLogoPath, existingLogoPath) {
-  const width = 300;
-  const height = 150;
+  const width = 500;
+  const height = 500;
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext("2d");
 
   ctx.fillStyle = "#FFFFFF";
   ctx.fillRect(0, 0, width, height);
 
-  let logoBuffer;
-
-  if (fs.existsSync(existingLogoPath)) {
-    logoBuffer = await processLogo(existingLogoPath);
-  } else {
+  if (!fs.existsSync(existingLogoPath)) {
     console.error(`Logo not found for tool: ${toolName}.`);
+    return;
   }
 
+  const logoBuffer = await processLogo(existingLogoPath);
   const logoImg = await loadImage(logoBuffer);
-  const logoHeight = (2 / 3) * height;
-  const logoWidth = (logoImg.width / logoImg.height) * logoHeight;
 
-  ctx.drawImage(logoImg, (width - logoWidth) / 2, 0, logoWidth, logoHeight);
+  const maxLogoHeight = (3 / 5) * height;
+  const maxLogoWidth = width * 0.9;
 
-  ctx.font = "bold 20px Arial";
+  let logoWidth = logoImg.width;
+  let logoHeight = logoImg.height;
+
+  if (logoWidth > maxLogoWidth || logoHeight > maxLogoHeight) {
+    const scaleRatio = Math.min(
+      maxLogoWidth / logoWidth,
+      maxLogoHeight / logoHeight,
+    );
+    logoWidth *= scaleRatio;
+    logoHeight *= scaleRatio;
+  }
+
+  ctx.drawImage(
+    logoImg,
+    (width - logoWidth) / 2,
+    (maxLogoHeight - logoHeight) / 2,
+    logoWidth,
+    logoHeight,
+  );
+
+  ctx.font = "bold 54px Arial";
   ctx.fillStyle = "#000000";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
-  ctx.fillText(toolName, width / 2, logoHeight + (height - logoHeight) / 2);
+
+  const maxTextWidth = width * 0.95;
+  const words = toolName.split(" ");
+  let lines = [];
+  let currentLine = "";
+
+  words.forEach((word) => {
+    const testLine = currentLine + (currentLine ? " " : "") + word;
+    if (ctx.measureText(testLine).width > maxTextWidth) {
+      lines.push(currentLine);
+      currentLine = word;
+    } else {
+      currentLine = testLine;
+    }
+  });
+  if (currentLine) lines.push(currentLine);
+
+  lines = lines.flatMap((line) => {
+    if (ctx.measureText(line).width > maxTextWidth) {
+      const chars = line.split("");
+      let newLines = [];
+      let subLine = "";
+      chars.forEach((char) => {
+        const testSubLine = subLine + char;
+        if (ctx.measureText(testSubLine).width > maxTextWidth) {
+          newLines.push(subLine);
+          subLine = char;
+        } else {
+          subLine = testSubLine;
+        }
+      });
+      if (subLine) newLines.push(subLine);
+      return newLines;
+    } else {
+      return [line];
+    }
+  });
+
+  const totalTextHeight = lines.length * 65;
+  const textStartY =
+    maxLogoHeight + ((2 / 5) * height) / 2 - totalTextHeight / 2;
+
+  lines.forEach((line, index) => {
+    ctx.fillText(line, width / 2, textStartY + index * 65);
+  });
 
   const buffer = canvas.toBuffer("image/png");
   fs.writeFileSync(generatedLogoPath, buffer);
