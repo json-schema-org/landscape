@@ -1,8 +1,11 @@
 const yaml = require("js-yaml");
 const fs = require("fs");
+const { createCanvas } = require("canvas");
+const path = require("path");
 
 const landscapeFilePath = "landscape.yml";
 const toolingFilePath = "external_data/tooling-data.yaml";
+const logosDirectory = "logos";
 
 const landscapeData = loadYaml(landscapeFilePath);
 const toolingData = loadYaml(toolingFilePath);
@@ -22,15 +25,20 @@ toolingData.forEach((tool) => {
       tool.source || tool.homepage,
     );
 
+    const uniqueLogoName = `${uniqueIdentifier}_${toolingTypeTitle.replace(/\s+/g, "_")}.png`;
+
     if (!toolsByToolingType[toolingTypeTitle]) {
       toolsByToolingType[toolingTypeTitle] = [];
     }
 
+    const logoPath = path.join(logosDirectory, uniqueLogoName);
+    generateLogo(tool.name, logoPath);
+
     toolsByToolingType[toolingTypeTitle].push({
-      name: `${tool.name} | ${toolingTypeTitle} (${uniqueIdentifier})`,
+      name: `${tool.name} (${uniqueIdentifier}) | ${toolingTypeTitle}`,
       homepage_url:
         tool.source || tool.homepage || "https://json-schema.org/tools",
-      logo: "tooling.svg",
+      logo: uniqueLogoName,
       description: tool.description || `JSON Schema Tool: ${toolingTypeTitle}`,
     });
   });
@@ -41,6 +49,26 @@ Object.entries(toolsByToolingType).forEach(([subcategory, tools]) => {
 });
 
 saveYaml(landscapeData, landscapeFilePath);
+
+function generateLogo(text, filePath) {
+  const width = 300;
+  const height = 100;
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext("2d");
+
+  ctx.fillStyle = "#FFFFFF";
+  ctx.fillRect(0, 0, width, height);
+
+  ctx.font = "bold 30px Arial";
+  ctx.fillStyle = "#000000";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+
+  ctx.fillText(text, width / 2, height / 2);
+
+  const buffer = canvas.toBuffer("image/png");
+  fs.writeFileSync(filePath, buffer);
+}
 
 function extractUniqueIdentifier(url) {
   if (!url) return "unknown";
