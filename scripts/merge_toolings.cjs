@@ -14,21 +14,25 @@ const landscapeTools = landscapeData.categories.filter(
 landscapeTools.subcategories = [];
 
 let toolsByToolingType = {};
-let counter = 0;
 toolingData.forEach((tool) => {
   const toolingTypes = tool.toolingTypes;
   toolingTypes.forEach((toolingType) => {
     const toolingTypeTitle = toTitleCase(toolingType);
+    const uniqueIdentifier = extractUniqueIdentifier(
+      tool.source || tool.homepage,
+    );
+
     if (!toolsByToolingType[toolingTypeTitle]) {
       toolsByToolingType[toolingTypeTitle] = [];
     }
+
     toolsByToolingType[toolingTypeTitle].push({
-      name: `${tool.name}${counter} | ${toolingTypeTitle}`,
-      homepage_url: "https://json-schema.org/tools",
+      name: `${tool.name} | ${toolingTypeTitle} (${uniqueIdentifier})`,
+      homepage_url:
+        tool.source || tool.homepage || "https://json-schema.org/tools",
       logo: "tooling.svg",
       description: tool.description || `JSON Schema Tool: ${toolingTypeTitle}`,
     });
-    counter++;
   });
 });
 
@@ -37,6 +41,31 @@ Object.entries(toolsByToolingType).forEach(([subcategory, tools]) => {
 });
 
 saveYaml(landscapeData, landscapeFilePath);
+
+function extractUniqueIdentifier(url) {
+  if (!url) return "unknown";
+
+  try {
+    const domain = new URL(url).hostname;
+    const parts = domain.split(".");
+
+    // If it's a domain like github.com/user, we extract the username
+    if (
+      domain.includes("github.com") ||
+      domain.includes("bitbucket.org") ||
+      domain.includes("gitlab.com")
+    ) {
+      const username = url.split("/")[3];
+      return username || domain; // If username not found, fallback to domain
+    }
+
+    // Otherwise, return the domain's second level (e.g., json-everything.net -> json-everything)
+    return parts.length > 2 ? parts[parts.length - 2] : parts[0];
+  } catch (e) {
+    console.error("Failed to extract unique identifier from URL:", url, e);
+    return "unknown";
+  }
+}
 
 function loadYaml(filePath) {
   try {
