@@ -1,11 +1,13 @@
 const yaml = require("js-yaml");
 const fs = require("fs");
-const { createCanvas } = require("canvas");
+const { createCanvas, loadImage } = require("canvas");
+const sharp = require("sharp");
 const path = require("path");
 
 const landscapeFilePath = "landscape.yml";
-const toolingFilePath = "external_data/tooling-data.yaml";
 const logosDirectory = "logos";
+const toolingFilePath = "external_data/tooling-data.yaml";
+const toolingsLogoDirectory = "external_data/logos";
 
 const landscapeData = loadYaml(landscapeFilePath);
 const toolingData = loadYaml(toolingFilePath);
@@ -21,19 +23,27 @@ toolingData.forEach((tool) => {
   const toolingTypes = tool.toolingTypes;
   toolingTypes.forEach((toolingType) => {
     const toolingTypeTitle = toTitleCase(toolingType);
+
     const uniqueIdentifier = extractUniqueIdentifier(
       tool.source || tool.homepage,
     );
 
-    const uniqueLogoName = `${uniqueIdentifier}_${toolingTypeTitle.replace(/\s+/g, "_")}.png`;
+    const existingLogoPath = path.join(
+      toolingsLogoDirectory,
+      tool.landscape?.logo || "json-schema-tooling-default.svg",
+    );
+    const uniqueLogoName =
+      `${tool.name}_${uniqueIdentifier}_${toolingTypeTitle}`
+        .replace(/[^\w\s-]/g, "")
+        .replace(/\s+/g, "_")
+        .toLowerCase()
+        .concat(".png");
+    const generatedLogoPath = path.join(logosDirectory, uniqueLogoName);
+    generateLogo(tool.name, generatedLogoPath, existingLogoPath);
 
     if (!toolsByToolingType[toolingTypeTitle]) {
       toolsByToolingType[toolingTypeTitle] = [];
     }
-
-    const logoPath = path.join(logosDirectory, uniqueLogoName);
-    generateLogo(tool.name, logoPath);
-
     toolsByToolingType[toolingTypeTitle].push({
       name: `${tool.name} (${uniqueIdentifier}) | ${toolingTypeTitle}`,
       homepage_url:
@@ -50,24 +60,49 @@ Object.entries(toolsByToolingType).forEach(([subcategory, tools]) => {
 
 saveYaml(landscapeData, landscapeFilePath);
 
-function generateLogo(text, filePath) {
+async function generateLogo(toolName, generatedLogoPath, existingLogoPath) {
   const width = 300;
-  const height = 100;
+  const height = 150;
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext("2d");
 
   ctx.fillStyle = "#FFFFFF";
   ctx.fillRect(0, 0, width, height);
 
-  ctx.font = "bold 30px Arial";
+  let logoBuffer;
+
+  if (fs.existsSync(existingLogoPath)) {
+    logoBuffer = await processLogo(existingLogoPath);
+  } else {
+    console.error(`Logo not found for tool: ${toolName}.`);
+  }
+
+  const logoImg = await loadImage(logoBuffer);
+  const logoHeight = (2 / 3) * height;
+  const logoWidth = (logoImg.width / logoImg.height) * logoHeight;
+
+  ctx.drawImage(logoImg, (width - logoWidth) / 2, 0, logoWidth, logoHeight);
+
+  ctx.font = "bold 20px Arial";
   ctx.fillStyle = "#000000";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
-
-  ctx.fillText(text, width / 2, height / 2);
+  ctx.fillText(toolName, width / 2, logoHeight + (height - logoHeight) / 2);
 
   const buffer = canvas.toBuffer("image/png");
-  fs.writeFileSync(filePath, buffer);
+  fs.writeFileSync(generatedLogoPath, buffer);
+}
+
+async function processLogo(logoPath) {
+  const ext = path.extname(logoPath).toLowerCase();
+  if (ext === ".svg") {
+    return await sharp(logoPath).png().toBuffer();
+  } else if ([".png", ".jpg", ".jpeg"].includes(ext)) {
+    return fs.readFileSync(logoPath);
+  } else {
+    console.error(`Unsupported logo format: ${ext}`);
+    return fs.readFileSync(defaultLogo);
+  }
 }
 
 function extractUniqueIdentifier(url) {
