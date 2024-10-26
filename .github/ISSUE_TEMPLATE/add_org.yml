@@ -21,6 +21,7 @@ body:
       options:
         - "Adopters"
         - "Sponsors"
+        - "Standards"
         - "Other"
     validations:
       required: true
