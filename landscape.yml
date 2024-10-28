@@ -259,6 +259,14 @@ categories:
             project_org: https://github.com/kaakaww
             description: 🦅 StackHawk provides dynamic application vulnerability scanning from dev to prod. KAAKAWW!
 
+          - name: Nasa
+            homepage_url: https://www.nasa.gov/
+            logo: nasa.svg
+            crunchbase: https://www.crunchbase.com/organization/nasa
+            twitter: https://twitter.com/nasa
+            project_org: https://github.com/NASA
+            description: The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the civilian space program, as well as aeronautics and aerospace research.
+
   - name: Sponsors
     subcategories:
       - name: Bronze
