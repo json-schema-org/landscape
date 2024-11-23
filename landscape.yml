@@ -349,6 +349,40 @@ categories:
             twitter: https://twitter.com/vpsservercom
             description: Providing virtual private servers (VPS) with 3-way server replication. Guaranteed the best I/O performance and data protection.
 
+          - name: IT Flash Cards
+            homepage_url: https://www.itflashcards.com/
+            logo: itflashcards.svg
+            twitter: https://x.com/ITFlashcards
+            description: IT Flashcards empowers programmers, DevOps, and IT specialists to broaden their expertise.
+
+          - name: Route4Me
+            homepage_url: https://www.route4me.com/
+            logo: route4me.svg
+            crunchbase: https://www.crunchbase.com/organization/route4me
+            twitter: https://x.com/Route4Me
+            description: Route4Me has helped thousands of small business owners plan & optimize all of their routes in seconds.
+
+          - name: n8n
+            homepage_url: https://n8n.io/
+            logo: n8n.svg
+            crunchbase: https://www.crunchbase.com/organization/n8n-io
+            twitter: https://x.com/n8n_io
+            project_org: https://github.com/n8n-io/n8n
+            description: n8n is an extendable workflow automation tool which enables you to connect anything to everything via its open, fair-code model.
+
+          - name: Copy Copter
+            homepage_url: https://copycopter.ai/
+            logo: copycopter.png
+            description: Create AI videos in minutes with our AI video generator from text. Post automatically on your social media, and let our AI creation tool make viral videos for you effortlessly.
+
+          - name: Octue
+            homepage_url: https://www.octue.com/
+            logo: octue.svg
+            crunchbase: https://www.crunchbase.com/organization/octue
+            twitter: https://x.com/octue
+            project_org: https://github.com/octue
+            description: Octue is an Open Source Software organisation, helping scientists and engineers in the energy and climate sectors work with data.
+
       - name: Community
         items:
           - name: JSON Buddy
