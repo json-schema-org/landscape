@@ -259,6 +259,47 @@ categories:
             project_org: https://github.com/kaakaww
             description: 🦅 StackHawk provides dynamic application vulnerability scanning from dev to prod. KAAKAWW!
 
+          - name: Notin
+            homepage_url: https://notion.io/
+            logo: notion.svg
+            crunchbase: https://www.crunchbase.com/organization/notin
+            twitter: https://twitter.com/notin
+            project_org: https://github.com/makenotion/notion-sdk-js
+            description: A platform for creating and sharing notes.
+
+          - name: Openai
+            homepage_url: https://openai.com/
+            logo: openai.svg
+            crunchbase: https://www.crunchbase.com/organization/openai
+            twitter: https://twitter.com/openai
+            project_org: https://github.com/openai/openai-node
+            description: OpenAI is an artificial intelligence research laboratory consisting of the for-profit OpenAI LP and the non-profit OpenAI Inc. 
+
+          - name: NASA
+            homepage_url: https://www.nasa.gov/
+            logo: nasa.svg
+            crunchbase: https://www.crunchbase.com/organization/nasa
+            twitter: https://twitter.com/nasa
+            project_org: https://gcn.nasa.gov/docs/notices/schema
+            description: The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the civilian space program, as well as aeronautics and aerospace research.
+
+          - name: Tyk
+            homepage_url: https://tyk.io/
+            logo: tyk.svg
+            crunchbase: https://www.crunchbase.com/organization/tyk-technologies
+            twitter: https://twitter.com/tyk_io
+            project_org: https://github.com/TykTechnologies/tyk-schemas
+            description: Tyk is an open-source API Gateway that puts you in control of API Management.
+
+          - name: Ethereum
+            homepage_url: https://ethereum.org/
+            logo: ethereum.svg
+            crunchbase: https://www.crunchbase.com/organization/ethereum
+            twitter: https://twitter.com/ethereum
+            project_org: https://github.com/ethereum
+            description: Ethereum is a public network, a blockchain, and an open-source protocol -- operated, governed, managed, and owned by a global community of tens of thousands of developers, node operators, ETH holders and users.
+
+
   - name: Sponsors
     subcategories:
       - name: Bronze
