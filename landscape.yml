@@ -299,6 +299,15 @@ categories:
             project_org: https://github.com/ethereum
             description: Ethereum is a public network, a blockchain, and an open-source protocol -- operated, governed, managed, and owned by a global community of tens of thousands of developers, node operators, ETH holders and users.
 
+          - name: eccenca
+            homepage_url: https://eccenca.com/
+            logo: eccenca.svg
+            crunchbase: https://www.crunchbase.com/organization/eccenca
+            twitter: https://x.com/eccenca
+            project_org: https://github.com/eccenca
+            documentation_url: https://github.com/eccenca/documentation.eccenca.com
+            description: eccenca Corporate Memory provides a multi-disciplinary integrative Enterprise Knowledge Graph platform for managing rules, constraints, capabilities, configurations and data in a single application, which integrates JSON Schema validation for input and output data ports.
+
 
   - name: Sponsors
     subcategories:
