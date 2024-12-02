@@ -33,6 +33,11 @@ categories:
             logo: json-api.svg
             project_org: https://github.com/json-api
             description: A specification for building JSON APIs.
+          - name: FHIR
+            homepage_url: https://hl7.org/fhir/
+            logo: fihr.png
+            project_org: https://github.com/FHIR
+            description: FHIR is a standard for health care data exchange, published by HL7. 
 
       - name: Adopters
         items:
