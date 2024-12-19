@@ -38,7 +38,18 @@ categories:
             logo: fihr.png
             project_org: https://github.com/FHIR
             description: FHIR is a standard for health care data exchange, published by HL7. 
-
+          - name: Verifiable Crendentials Specification
+            homepage_url: https://www.w3.org/TR/vc-json-schema/
+            logo: verifiable-credentials.png
+            project_org: https://github.com/w3c/verifiable-credentials
+            description: The Verifiable Credentials (VC) specification is a data model and set of protocols that allows for the secure, privacy-respecting, and machine-verifiable expression of digital credentials. 
+          - name: OCEL
+            homepage_url: https://www.ocel-standard.org/
+            logo: ocel.png
+            twitter: https://x.com/pads_rwth
+            project_org: https://github.com/rwth-pads/sOCEL
+            description:  OCEL is a format for object-centric event logs. 
+            
       - name: Adopters
         items:
           - name: GitHub
@@ -396,6 +407,15 @@ categories:
             twitter: https://x.com/octue
             project_org: https://github.com/octue
             description: Octue is an Open Source Software organisation, helping scientists and engineers in the energy and climate sectors work with data.
+          
+          - name: Apideck
+            homepage_url: https://www.apideck.com/
+            logo: apideck.webp
+            crunchbase: https://www.crunchbase.com/organization/apideck
+            twitter: https://x.com/apideck
+            project_org: https://github.com/apideck-io
+            description: Apideck is the leading Unified API that doesn't store sensitive customer data with scalable pricing.
+
 
       - name: Community
         items:
