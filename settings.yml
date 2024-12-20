@@ -139,6 +139,7 @@ footer:
     twitter: "https://twitter.com/jsonschema"
     youtube: "https://www.youtube.com/@JSONSchemaOrgOfficial"
   logo: "https://json-schema.org/img/logos/logo-white.svg"
+  text: "Copyright © 2024 JSON Schema. All rights reserved."
 
 # Grid items size (optional)
 #
