@@ -28,10 +28,12 @@ toolingData.forEach((tool) => {
       tool.source || tool.homepage,
     );
 
-    const existingLogoPath = path.join(
-      toolingsLogoDirectory,
-      tool.landscape?.logo || "json-schema-tooling-default.svg",
-    );
+    // Only assign a logo path if the tool has a custom logo
+    const hasCustomLogo = tool.landscape?.logo;
+    const existingLogoPath = hasCustomLogo
+      ? path.join(toolingsLogoDirectory, tool.landscape.logo)
+      : null; // No default logo here
+
     const uniqueLogoName =
       `${tool.name}_${uniqueIdentifier}_${toolingTypeTitle}`
         .replace(/[^\w\s-]/g, "")
@@ -39,6 +41,8 @@ toolingData.forEach((tool) => {
         .toLowerCase()
         .concat(".png");
     const generatedLogoPath = path.join(logosDirectory, uniqueLogoName);
+
+    // Pass the logo path or null to the generateLogo function
     generateLogo(tool.name, generatedLogoPath, existingLogoPath);
 
     if (!toolsByToolingType[toolingTypeTitle]) {
@@ -66,50 +70,54 @@ async function generateLogo(toolName, generatedLogoPath, existingLogoPath) {
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext("2d");
 
+  // Fill the background with white color
   ctx.fillStyle = "#FFFFFF";
   ctx.fillRect(0, 0, width, height);
 
-  if (!fs.existsSync(existingLogoPath)) {
-    console.error(`Logo not found for tool: ${toolName}.`);
-    return;
-  }
+  // Check if a logo is provided
+  if (existingLogoPath) {
+    const logoBuffer = await processLogo(existingLogoPath);
+    const logoImg = await loadImage(logoBuffer);
 
-  const logoBuffer = await processLogo(existingLogoPath);
-  const logoImg = await loadImage(logoBuffer);
+    const maxLogoHeight = (3 / 5) * height;
+    const maxLogoWidth = width * 0.9;
 
-  const maxLogoHeight = (3 / 5) * height;
-  const maxLogoWidth = width * 0.9;
+    let logoWidth = logoImg.width;
+    let logoHeight = logoImg.height;
 
-  let logoWidth = logoImg.width;
-  let logoHeight = logoImg.height;
+    if (logoWidth > maxLogoWidth || logoHeight > maxLogoHeight) {
+      const scaleRatio = Math.min(
+        maxLogoWidth / logoWidth,
+        maxLogoHeight / logoHeight,
+      );
+      logoWidth *= scaleRatio;
+      logoHeight *= scaleRatio;
+    }
 
-  if (logoWidth > maxLogoWidth || logoHeight > maxLogoHeight) {
-    const scaleRatio = Math.min(
-      maxLogoWidth / logoWidth,
-      maxLogoHeight / logoHeight,
+    // Draw the logo centered
+    ctx.drawImage(
+      logoImg,
+      (width - logoWidth) / 2,
+      (maxLogoHeight - logoHeight) / 2,
+      logoWidth,
+      logoHeight,
     );
-    logoWidth *= scaleRatio;
-    logoHeight *= scaleRatio;
   }
 
-  ctx.drawImage(
-    logoImg,
-    (width - logoWidth) / 2,
-    (maxLogoHeight - logoHeight) / 2,
-    logoWidth,
-    logoHeight,
-  );
-
-  ctx.font = "bold 54px Arial";
+  // Set a baseline font size, and adjust it later if needed
+  let fontSize = existingLogoPath ? 54 : 65; // Keep font size large when no logo
+  ctx.font = `bold ${fontSize}px Arial`;
   ctx.fillStyle = "#000000";
   ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
+  ctx.textBaseline = "middle"; // Ensures text is centered vertically
 
-  const maxTextWidth = width * 0.95;
-  const words = toolName.split(" ");
+  // Slightly increase the maximum text width to allow more room for the text
+  let maxTextWidth = width * 0.9; // Increase to 90% of width to prevent single-letter overflow
+  let words = toolName.split(" ");
   let lines = [];
   let currentLine = "";
 
+  // Break tool name into lines that fit the canvas width
   words.forEach((word) => {
     const testLine = currentLine + (currentLine ? " " : "") + word;
     if (ctx.measureText(testLine).width > maxTextWidth) {
@@ -121,6 +129,7 @@ async function generateLogo(toolName, generatedLogoPath, existingLogoPath) {
   });
   if (currentLine) lines.push(currentLine);
 
+  // Further break lines if necessary, now accounting for maxTextWidth buffer
   lines = lines.flatMap((line) => {
     if (ctx.measureText(line).width > maxTextWidth) {
       const chars = line.split("");
@@ -142,12 +151,31 @@ async function generateLogo(toolName, generatedLogoPath, existingLogoPath) {
     }
   });
 
-  const totalTextHeight = lines.length * 65;
-  const textStartY =
-    maxLogoHeight + ((2 / 5) * height) / 2 - totalTextHeight / 2;
+  // If there's only one line but it's too long, reduce font size slightly
+  if (lines.length === 1 && ctx.measureText(lines[0]).width > maxTextWidth) {
+    fontSize -= 5; // Decrease font size slightly
+    ctx.font = `bold ${fontSize}px Arial`;
+  }
 
+  // Calculate total height of the text block (line count * line height)
+  const lineHeight = fontSize + 10; // Line spacing of 10px
+  const totalTextHeight = lines.length * lineHeight;
+
+  let textStartY;
+
+  // Properly center the text based on whether there is a logo or not
+  if (!existingLogoPath) {
+    // If no logo, center the text vertically in the whole canvas
+    textStartY = height / 2 - totalTextHeight / 2; // Text block centered
+  } else {
+    const maxLogoHeight = (3 / 5) * height;
+    // If there's a logo, center the text in the remaining 2/5 of the canvas height
+    textStartY = maxLogoHeight + ((2 / 5) * height) / 2 - totalTextHeight / 2;
+  }
+
+  // Draw the tool name lines
   lines.forEach((line, index) => {
-    ctx.fillText(line, width / 2, textStartY + index * 65);
+    ctx.fillText(line, width / 2, textStartY + index * lineHeight);
   });
 
   const buffer = canvas.toBuffer("image/png");
