@@ -324,7 +324,7 @@ categories:
             documentation_url: https://github.com/eccenca/documentation.eccenca.com
             description: eccenca Corporate Memory provides a multi-disciplinary integrative Enterprise Knowledge Graph platform for managing rules, constraints, capabilities, configurations and data in a single application, which integrates JSON Schema validation for input and output data ports.
 
-          - name: ollama
+          - name: Ollama
             homepage_url: https://ollama.com/
             logo: ollama.png
             crunchbase: https://www.crunchbase.com/organization/ollama
