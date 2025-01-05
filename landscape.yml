@@ -275,7 +275,7 @@ categories:
             project_org: https://github.com/kaakaww
             description: 🦅 StackHawk provides dynamic application vulnerability scanning from dev to prod. KAAKAWW!
 
-          - name: Notin
+          - name: Notion
             homepage_url: https://notion.io/
             logo: notion.svg
             crunchbase: https://www.crunchbase.com/organization/notin
@@ -323,6 +323,14 @@ categories:
             project_org: https://github.com/eccenca
             documentation_url: https://github.com/eccenca/documentation.eccenca.com
             description: eccenca Corporate Memory provides a multi-disciplinary integrative Enterprise Knowledge Graph platform for managing rules, constraints, capabilities, configurations and data in a single application, which integrates JSON Schema validation for input and output data ports.
+
+          - name: Ollama
+            homepage_url: https://ollama.com/
+            logo: ollama.png
+            crunchbase: https://www.crunchbase.com/organization/ollama
+            twitter: https://x.com/ollama
+            project_org: https://github.com/ollama
+            description: Ollama is an open-source tool that runs large language models (LLMs) directly on a local machine.
 
 
   - name: Sponsors
