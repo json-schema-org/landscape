@@ -49,6 +49,12 @@ categories:
             twitter: https://x.com/pads_rwth
             project_org: https://github.com/rwth-pads/sOCEL
             description:  OCEL is a format for object-centric event logs. 
+          - name: Cloud Events
+            homepage_url: https://cloudevents.io/
+            logo: cloudevents.svg
+            twitter: https://twitter.com/CloudEventsIO
+            project_org: https://github.com/cloudevents
+            description:  A specification for describing event data in a common way. 
             
       - name: Adopters
         items:
