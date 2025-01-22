@@ -51,7 +51,7 @@ categories:
             description:  OCEL is a format for object-centric event logs. 
           - name: Cloud Events
             homepage_url: https://cloudevents.io/
-            logo: cloudevents.svg
+            logo: cloudevents.png
             twitter: https://twitter.com/CloudEventsIO
             project_org: https://github.com/cloudevents
             description:  A specification for describing event data in a common way. 
