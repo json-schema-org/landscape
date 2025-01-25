@@ -55,6 +55,12 @@ categories:
             twitter: https://x.com/rxdbjs
             project_org: https://github.com/pubkey/rxdb
             description:  RxDB is a local and reactive Database for JavaScript Applications
+          - name: Cloud Events
+            homepage_url: https://cloudevents.io/
+            logo: cloudevents.png
+            twitter: https://twitter.com/CloudEventsIO
+            project_org: https://github.com/cloudevents
+            description:  A specification for describing event data in a common way. 
             
       - name: Adopters
         items:
