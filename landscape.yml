@@ -55,6 +55,10 @@ categories:
             twitter: https://twitter.com/CloudEventsIO
             project_org: https://github.com/cloudevents
             description:  A specification for describing event data in a common way. 
+          - name: Open Contracting Data Standard
+            homepage_url: https://standard.open-contracting.org/latest/en/
+            logo: Open-Contracting-Data-Standard.svg 
+            description: The Open Contracting Data Standard (OCDS) enables disclosure of data and documents at all stages of the contracting process by defining a common data model.
             
       - name: Adopters
         items:
