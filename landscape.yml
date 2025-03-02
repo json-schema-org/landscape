@@ -59,6 +59,10 @@ categories:
             homepage_url: https://standard.open-contracting.org/latest/en/
             logo: Open-Contracting-Data-Standard.png 
             description: The Open Contracting Data Standard (OCDS) enables disclosure of data and documents at all stages of the contracting process by defining a common data model.
+          - name: Open Data Product Specification
+            homepage_url: https://opendataproducts.org/
+            logo: odps.png
+            description: Open Data Product Specification is an initiative to standardize the way data products are described and shared.
             
       - name: Adopters
         items:
