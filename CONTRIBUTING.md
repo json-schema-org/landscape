@@ -32,7 +32,7 @@ There are several ways you can contribute to the JSON Schema website:
 
 Do you know about an Organization using JSON Schema? Add it!!
 
-You can add a new Organization by using the [Adopters form](https://forms.gle/vyFskw1RshJ55LY46), [creating an issue](https://github.com/json-schema-org/landscape/issues/new?assignees=&labels=Status%3A+triage&projects=&template=add_org.yml&title=%F0%9F%8C%90+Add+new+organisation) or by submitting a PR to edit landscape.yml file. If your Organization is listed but you like it to be removed, please submit a PR removing it.
+You can add a new Organization by using the [Adopters form](https://forms.gle/HNZs4vt49GWPPGQq5), [creating an issue](https://github.com/json-schema-org/landscape/issues/new?assignees=&labels=Status%3A+triage&projects=&template=add_org.yml&title=%F0%9F%8C%90+Add+new+organisation) or by submitting a PR to edit landscape.yml file. If your Organization is listed but you like it to be removed, please submit a PR removing it.
 
 Guidelines: Please follow [the CNCF Landscape guidelines](https://github.com/cncf/landscapeapp?tab=readme-ov-file#adding-and-managing-landscape-entries) to provide the right information. 
 
