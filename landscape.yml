@@ -445,7 +445,7 @@ categories:
             project_org: https://github.com/apideck-io
             description: Apideck is the leading Unified API that doesn't store sensitive customer data with scalable pricing.
           
-          name: RxDB
+          - name: RxDB
             homepage_url: https://rxdb.info/
             logo: rxdb.svg
             twitter: https://x.com/rxdbjs
