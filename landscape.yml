@@ -353,6 +353,11 @@ categories:
             project_org: https://github.com/pubkey/rxdb
             description:  RxDB is a local and reactive Database for JavaScript Applications
 
+          - name: Web Design Agencies
+            homepage_url: https://topagency.webflow.io/
+            logo: wda.svg
+            description:  One-stop platform for finding the best web design companies
+
   - name: Sponsors
     subcategories:
       - name: Bronze
@@ -443,7 +448,18 @@ categories:
             twitter: https://x.com/apideck
             project_org: https://github.com/apideck-io
             description: Apideck is the leading Unified API that doesn't store sensitive customer data with scalable pricing.
+          
+          - name: RxDB
+            homepage_url: https://rxdb.info/
+            logo: rxdb.svg
+            twitter: https://x.com/rxdbjs
+            project_org: https://github.com/pubkey/rxdb
+            description:  RxDB is a local and reactive Database for JavaScript Applications
 
+          - name: Web Design Agencies
+            homepage_url: https://topagency.webflow.io/
+            logo: wda.svg
+            description:  One-stop platform for finding the best web design companies
 
       - name: Community
         items:
