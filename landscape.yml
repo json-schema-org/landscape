@@ -374,6 +374,106 @@ categories:
             documentation_url: https://docs.d3security.com/user-docs/17.2/data-formatter-usage-guidelines 
             description: D3 Security revolutionizes SecOps with its AI-driven autonomous Security Operations Center (ASOC) solution, Morpheus. Morpheus processes unlimited security alerts with superhuman thoroughness, performing the work of Tier 1-3 analysts with greater speed and depth than traditional approaches. It seamlessly integrates with existing security infrastructure, requiring no architectural changes. D3 Security's mission is to empower SOC teams with a comprehensive, AI-powered workspace for scalable incident response, conversational threat hunting, and dynamic playbook generation.
 
+          - name: Adobe experience manager
+            homepage_url: https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-advanced-authoring/adaptive-form-json-schema-form-model 
+            logo: adobe.png
+            crunchbase: https://www.crunchbase.com/organization/adobe-systems
+            description: The Adobe Experience Manager content management solution for building websites, mobile apps and forms supports creating adaptative forms using JSON Schema. 
+          
+          - name: Amazon EventBridge Schema Registry
+            logo: amazon.png 
+            homepage_url: https://aws.amazon.com/about-aws/
+            description: Amazon EventBridge Schema Registry has support for JSON Schema, allowing customers to validate, annotate, and manipulate JSON documents conforming to JSON Schema Draft 4 specification.
+
+          - name: Apiary
+            logo: apiary.png 
+            homepage_url: https://help.apiary.io/api_101/json-schema/?utm_source=awesome-jsonschema 
+            crunchbase: https://www.crunchbase.com/organization/apiary 
+            description: Apiary's interactive documentation is able to render JSON Schema documents associated with payloads.
+          
+          - name: Assertible
+            logo: assertible.png 
+            homepage_url: https://assertible.com/json-schema-validation?utm_source=awesome-jsonschema
+            twitter: https://x.com/AssertibleApp
+            crunchbase: https://www.crunchbase.com/organization/assertible
+            description: Assertible provides a free-to-use API to validate a JSON document against a JSON Schema and a service to test and monitor web services using JSON Schema.
+
+          - name: Axway API Gateway
+            logo: axway.png 
+            homepage_url: https://docs.axway.com/bundle/APIGateway_762_PolicyDevFilterReference_allOS_en_HTML5/page/Content/PolicyDevTopics/content_schema_json.htm?utm_source=awesome-jsonschema
+            crunchbase: https://www.crunchbase.com/organization/axway
+            description: The API Gateway can check that JavaScript Object Notation (JSON) messages conform to the format expected by a web service by validating requests against a specified JSON schema.
+
+          - name: Cloudflare 
+            logo: cloudflare.png 
+            homepage_url: https://blog.cloudflare.com/cloudflares-json-powered-documentation-generator/?utm_source=awesome-jsonschema/
+            crunchbase: https://www.crunchbase.com/organization/cloudflare
+            description: The Cloudflare makes use of JSON Schema and Hyper Schema to keep track of their API endpoints. 
+          
+          - name: Cloudflare Terraform
+            logo: terraform-cloudflare.png
+            homepage_url: https://www.infoq.com/news/2021/04/cloudflare-terraform/?utm_source=awesome-jsonschema
+            crunchbase: https://www.crunchbase.com/organization/terraform
+            description: The Cloudflare Terraform provider comes with a tool to generate Terraform configuration from existing Cloudflare resources that uses JSON Schema to map data between both technologies.
+
+          - name: Confluent
+            logo: confluent.png 
+            homepage_url: https://docs.confluent.io/platform/current/schema-registry/fundamentals/serdes-develop/serdes-json.html 
+            crunchbase: https://www.crunchbase.com/organization/confluent 
+            description: JSON Schema can be configured with the Apache Kafka Java client and console tools to fail if the payload is not valid for the given schema.
+
+          - name: ContentStack
+            logo: contentstack.png 
+            homepage_url: https://www.contentstack.com/docs/developers/create-content-types/json-schema-for-creating-a-content-type?utm_source=awesome-jsonschema
+            crunchbase: https://www.crunchbase.com/organization/contentstack
+            description: The Contentstack CMS platform supports creating content types using JSON Schema.
+
+          - name: Decisions
+            logo: decisions.png 
+            homepage_url: https://documentation.decisions.com/docs 
+            description: The Decisions rules-driven business process automation platform support using JSON Schema to generate JSON deserializers.
+
+          - name: DocSpring
+            logo: docspring.png
+            homepage_url: https://docspring.com/docs/api/get_template_schema.html?utm_source=awesome-jsonschema
+            crunchbase: https://www.crunchbase.com/organization/docspring
+            description: The DocSpring service to automatically fill out PDF forms supports generating JSON Schema definitions for user-created templates.
+
+          - name: Drupal 
+            logo: drupal.png 
+            homepage_url: https://www.drupal.org/project/patternkit?utm_source=awesome-jsonschema
+            crunchbase: https://www.crunchbase.com/organization/drupal
+            description: The Drupal Patternkit module uses JSON Schema to define pattern templates. 
+
+          - name: Form.io 
+            logo: formio.png 
+            homepage_url: https://form.io/ 
+            crunchbase: https://www.crunchbase.com/organization/form-io
+            description: The Form.io online web form generator supports generating Angular.js forms using JSON Schema.
+
+          - name: Genomic Data Commons 
+            logo: GDC.png
+            homepage_url: https://gdc.cancer.gov/developers/gdc-data-model?utm_source=awesome-jsonschema
+            description: The Genomic Data Commons data model is defined using JSON Schema.
+
+          - name: Hackolade
+            logo: hackolade.webp
+            homepage_url: http://hackolade.com/help/JSONSchema.html?utm_source=awesome-jsonschema
+            twitter: https://x.com/hackolade
+            description: The Hackolade data modelling service supports defining entities using JSON Schema.
+
+          - name: Heroku 
+            logo: heroku.png 
+            homepage_url: https://www.heroku.com/blog/json_schema_for_heroku_platform_api/?utm_source=awesome-jsonschema
+            crunchbase: https://www.crunchbase.com/organization/heroku
+            description: Heroku makes use of JSON Schema to publish machine-readable schema definitions for their public APIs.
+
+          - name: Human Cell Atlas 
+            logo: hcatlas.png 
+            homepage_url: https://data.humancellatlas.org/
+            crunchbase: https://www.crunchbase.com/organization/human-cell-atlas
+            description: The open data generated by the Human Cell Atlas describes metadata structure using JSON Schema.
+
   - name: Sponsors
     subcategories:
       - name: Bronze
