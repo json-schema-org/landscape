@@ -358,6 +358,22 @@ categories:
             logo: wda.svg
             description:  One-stop platform for finding the best web design companies
 
+          - name: Callr
+            homepage_url: https://www.callr.com/en 
+            logo: callr_logo.png 
+            twitter: https://x.com/CALLR
+            crunchbase: https://www.crunchbase.com/organization/thecallr 
+            documentation_url: https://docs.callr.com/docs/getting-started-with-callr 
+            description: Callr empowers businesses to turn conversations into actionable data with AI-driven solutions. Our platform enhances the customer journey through seamless voice and SMS interactions, providing the tools to build meaningful connections and gain valuable insights. With Callr, you can optimize communications, drive engagement, and use data to drive your business forward.
+
+          - name: D3 Security
+            homepage_url: https://d3security.com/
+            logo: D3_logo_Rich_purple_black_RGB.webp 
+            twitter: https://x.com/D3Security
+            crunchbase: https://www.crunchbase.com/organization/d3-security
+            documentation_url: https://docs.d3security.com/user-docs/17.2/data-formatter-usage-guidelines 
+            description: D3 Security revolutionizes SecOps with its AI-driven autonomous Security Operations Center (ASOC) solution, Morpheus. Morpheus processes unlimited security alerts with superhuman thoroughness, performing the work of Tier 1-3 analysts with greater speed and depth than traditional approaches. It seamlessly integrates with existing security infrastructure, requiring no architectural changes. D3 Security's mission is to empower SOC teams with a comprehensive, AI-powered workspace for scalable incident response, conversational threat hunting, and dynamic playbook generation.
+
   - name: Sponsors
     subcategories:
       - name: Bronze
