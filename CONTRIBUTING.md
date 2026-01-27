@@ -26,7 +26,7 @@ There are several ways you can contribute to the JSON Schema website:
 * [**Adding a new Organization** 🐞](#adding-a-new-organization-)
 * [**Reporting Bugs** 🐞](#reporting-bugs-)
 * [**Suggesting Features** 💡](#suggesting-features-)
-* [**Improving the Landscape** 🌐](#improving-the-landscape-)
+* [**Improving the Docs** 🚧](#improving-the-docs-)
 
 ## Adding a new Organization 🌐
 
@@ -83,7 +83,7 @@ For more details on creating pull requests, refer to GitHub's documentation: [ht
 
 ## License 📄
 
-The contents of this repository are [licensed under](https://github.com/json-schema-org/website/blob/main/CONTRIBUTING.md#-license) either the BSD 3-clause license *or* the Academic Free License v3.0.
+The contents of this repository are [licensed](https://github.com/json-schema-org/landscape/blob/main/README.md#license) under either the BSD 3-clause license *or* the Academic Free License v3.0.
 
 ## Feedback 💬
 
