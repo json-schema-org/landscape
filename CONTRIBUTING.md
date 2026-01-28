@@ -83,7 +83,7 @@ For more details on creating pull requests, refer to GitHub's documentation: [ht
 
 ## License 📄
 
-The contents of this repository are [licensed](https://github.com/json-schema-org/landscape/blob/main/README.md#license) under either the BSD 3-clause license *or* the Academic Free License v3.0.
+The contents of this repository are [licensed](https://github.com/json-schema-org/website/blob/main/LICENSE) under either the BSD 3-clause license *or* the Academic Free License v3.0.
 
 ## Feedback 💬
 
