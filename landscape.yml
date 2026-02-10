@@ -705,11 +705,6 @@ categories:
             twitter: https://x.com/rxdbjs
             project_org: https://github.com/pubkey/rxdb
             description:  RxDB is a local and reactive Database for JavaScript Applications
-
-          - name: Web Design Agencies
-            homepage_url: https://topagency.webflow.io/
-            logo: wda.svg
-            description:  One-stop platform for finding the best web design companies
           
           - name: Supadata
             homepage_url: https://supadata.ai/
