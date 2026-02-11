@@ -51,7 +51,7 @@ This starts a local server and opens the website in your web browser at http://1
     * Improving the user interface
 
 ## License
-The contents of this repository are licensed under either the BSD 3-clause license or the Academic Free License v3.0. See the [license file](https://github.com/json-schema-org/website/blob/main/CONTRIBUTING.md#-license) for more details.
+The contents of this repository are licensed under either the BSD 3-clause license or the Academic Free License v3.0. See the [license file](https://github.com/json-schema-org/website/blob/main/LICENSE) for more details.
 
 
 ## Contact
