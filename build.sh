@@ -14,7 +14,7 @@ script = (
   '<script>'
   'var _obs=new MutationObserver(function(){'
   'document.querySelectorAll("a[href]").forEach(function(a){'
-  'if(a.href&&!a.href.startsWith("javascript")&&a.getAttribute("target")!=="blank"){'
+  'if(a.href&&!a.href.startsWith("javascript")){'
   'a.setAttribute("target","_blank");'
   'a.setAttribute("rel","noopener noreferrer");'
   '}'
