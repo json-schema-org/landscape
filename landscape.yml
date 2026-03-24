@@ -742,6 +742,12 @@ categories:
             logo: time-now.svg
             description: Time now is a tool for tracking and managing global time zones efficiently.
 
+          - name: Sourcemeta
+            homepage_url: https://www.sourcemeta.com
+            logo: sourcemeta.svg
+            project_org: https://github.com/sourcemeta/registry
+            description: The enterprise-grade JSON Schema Registry,
+
       - name: Community
         items:
           - name: JSON Buddy
