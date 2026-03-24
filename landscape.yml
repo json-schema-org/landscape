@@ -643,6 +643,11 @@ categories:
             homepage_url: https://nf-co.re/tools/#pipeline-schema
             description: The nf-core Nextflow analysis pipelines collection uses JSON Schema to define the parameters used by Nextflow workflows.
 
+          - name: Sophotech
+            logo: sophotech.svg
+            homepage_url: https://sopho.tech
+            description: Sophotech is using JSON Schema in Crossplane-based platform to define and validate clean, stable APIs for custom Kubernetes resources.
+
   - name: Sponsors
     subcategories:
       - name: Bronze
