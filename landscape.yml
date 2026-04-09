@@ -63,6 +63,10 @@ categories:
             homepage_url: https://opendataproducts.org/
             logo: odps.png
             description: Open Data Product Specification is an initiative to standardize the way data products are described and shared.
+          - name: Osiris
+            homepage_url: https://osirisjson.org/
+            logo: osiris-logo-color-positive.svg
+            description: Osiris is an open standard for infrastructure resource interchange schema.
             
       - name: Adopters
         items:
