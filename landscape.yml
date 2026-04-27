@@ -256,7 +256,7 @@ categories:
             description: Smart Data Models is a collaborative program to provide data models for digital twins and data spaces.
 
           - name: Schema Store
-            homepage_url: https://www.schemastore.org/json/
+            homepage_url: https://www.schemastore.org/
             logo: json-store.svg
             project_org: https://github.com/schemastore/schemastore/
             description: The repository is a universal JSON schema store, where schemas for popular JSON documents can be found.
@@ -294,7 +294,8 @@ categories:
             description: 🦅 StackHawk provides dynamic application vulnerability scanning from dev to prod. KAAKAWW!
 
           - name: Notion
-            homepage_url: https://notion.io/
+            homepage_url: https://www.notion.com/
+
             logo: notion.svg
             crunchbase: https://www.crunchbase.com/organization/notin
             twitter: https://twitter.com/notin
