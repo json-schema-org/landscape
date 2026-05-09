@@ -652,6 +652,21 @@ categories:
             homepage_url: https://sopho.tech
             description: Sophotech is using JSON Schema in Crossplane-based platform to define and validate clean, stable APIs for custom Kubernetes resources.
 
+          - name: Sourcemeta
+            logo: sourcemeta.png
+            homepage_url: https://www.sourcemeta.com/
+            description: Sourcemeta is an enterprise-grade JSON Schema Registry,
+
+          - name: Dottxt
+            logo: dottxt.svg
+            homepage_url: https://dottxt.ai/
+            description: Dottxt provides a fast, reliable model that generates valid JSON 100% of the time via an API. For information extraction, classification, agents workflows, synthetic data generation.
+
+          - name: Supadata
+            logo: supadata-logo-dark.svg
+            homepage_url: https://www.sourcemeta.com/
+            description: Supadata is one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval.
+ 
   - name: Sponsors
     subcategories:
       - name: Bronze
@@ -750,12 +765,6 @@ categories:
             homepage_url: https://time.now/
             logo: time-now.svg
             description: Time now is a tool for tracking and managing global time zones efficiently.
-
-          - name: Sourcemeta
-            homepage_url: https://www.sourcemeta.com
-            logo: sourcemeta.svg
-            project_org: https://github.com/sourcemeta/registry
-            description: The enterprise-grade JSON Schema Registry,
 
       - name: Community
         items:
