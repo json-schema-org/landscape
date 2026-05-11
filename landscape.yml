@@ -655,7 +655,7 @@ categories:
           - name: Sourcemeta
             logo: sourcemeta.png
             homepage_url: https://www.sourcemeta.com/
-            description: Sourcemeta is an enterprise-grade JSON Schema Registry,
+            description: Sourcemeta is an enterprise-grade JSON Schema Registry.
 
           - name: Dottxt
             logo: dottxt.svg
@@ -666,7 +666,12 @@ categories:
             logo: supadata-logo-dark.svg
             homepage_url: https://www.sourcemeta.com/
             description: Supadata is one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval.
- 
+  
+          - name: JSON-tology
+            logo: jst-node.svg
+            homepage_url: https://studnicky.github.io/json-tology/
+            description: JSON-tology is a one source truth for TypeScript types, runtime validation, coercion, and OWL ontology output.
+
   - name: Sponsors
     subcategories:
       - name: Bronze
