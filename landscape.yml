@@ -758,18 +758,15 @@ categories:
             logo: spin-the-wheel.svg
             description: A digital tool for random decision making and prize giveaways.
 
-          - name: Litslink
-            homepage_url: https://litslink.com/
-            logo: litslink.svg
-            twitter: https://x.com/LitsLink
-            project_org: https://github.com/litslink
-            crunchbase: https://www.crunchbase.com/organization/litslink
-            description: LITSLINK is a software development company from the US that unleashes the power of artificial intelligence with AI business solutions.
-
           - name: Time now
             homepage_url: https://time.now/
             logo: time-now.svg
             description: Time now is a tool for tracking and managing global time zones efficiently.
+
+          - name: BairesDev
+            homepage_url: https://www.bairesdev.com/
+            logo: BairesDev_Logo_Orange Dark.svg
+            description: BairesDev provides IT services and consulting.
 
       - name: Community
         items:
