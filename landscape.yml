@@ -23,6 +23,12 @@ categories:
             twitter: https://twitter.com/OpenApiSpec
             project_org: https://github.com/oai
             description: The world's most widely used API description standard. The OpenAPI Specification provides a formal standard for describing HTTP APIs.
+          - name: Model Context Protocol
+            homepage_url: https://modelcontextprotocol.io/
+            documentation_url: https://modelcontextprotocol.io/specification/2026-07-28/basic#json-schema-usage
+            logo: model-context-protocol.svg
+            project_org: https://github.com/modelcontextprotocol
+            description: An open protocol for connecting AI applications to external systems. MCP uses JSON Schema for validation throughout the protocol and requires support for JSON Schema 2020-12 by default.
           - name: Serverless Workflow
             homepage_url: https://serverlessworkflow.io/
             logo: serverless-workflow.svg
