@@ -43,27 +43,27 @@ categories:
             homepage_url: https://hl7.org/fhir/
             logo: fihr.png
             project_org: https://github.com/FHIR
-            description: FHIR is a standard for health care data exchange, published by HL7. 
+            description: FHIR is a standard for health care data exchange, published by HL7.
           - name: Verifiable Crendentials Specification
             homepage_url: https://www.w3.org/TR/vc-json-schema/
             logo: verifiable-credentials.png
             project_org: https://github.com/w3c/verifiable-credentials
-            description: The Verifiable Credentials (VC) specification is a data model and set of protocols that allows for the secure, privacy-respecting, and machine-verifiable expression of digital credentials. 
+            description: The Verifiable Credentials (VC) specification is a data model and set of protocols that allows for the secure, privacy-respecting, and machine-verifiable expression of digital credentials.
           - name: OCEL
             homepage_url: https://www.ocel-standard.org/
             logo: ocel.png
             twitter: https://x.com/pads_rwth
             project_org: https://github.com/rwth-pads/sOCEL
-            description:  OCEL is a format for object-centric event logs. 
+            description:  OCEL is a format for object-centric event logs.
           - name: Cloud Events
             homepage_url: https://cloudevents.io/
             logo: cloudevents.png
             twitter: https://twitter.com/CloudEventsIO
             project_org: https://github.com/cloudevents
-            description:  A specification for describing event data in a common way. 
+            description:  A specification for describing event data in a common way.
           - name: Open Contracting Data Standard
             homepage_url: https://standard.open-contracting.org/latest/en/
-            logo: Open-Contracting-Data-Standard.png 
+            logo: Open-Contracting-Data-Standard.png
             description: The Open Contracting Data Standard (OCDS) enables disclosure of data and documents at all stages of the contracting process by defining a common data model.
           - name: Open Data Product Specification
             homepage_url: https://opendataproducts.org/
@@ -73,7 +73,7 @@ categories:
             homepage_url: https://osirisjson.org/
             logo: osiris-logo-color-positive.svg
             description: Osiris is an open standard for infrastructure resource interchange schema.
-            
+
       - name: Adopters
         items:
           - name: GitHub
@@ -284,7 +284,7 @@ categories:
             logo: shadcn.svg
             project_org: https://github.com/shadcn-ui/ui
             description: Beautifully designed components that you can copy and paste into your apps.
-          
+
           - name: aspectivo
             homepage_url: https://aspectivo.ai/
             logo: aspectivo.svg
@@ -313,7 +313,7 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/openai
             twitter: https://twitter.com/openai
             project_org: https://github.com/openai/openai-node
-            description: OpenAI is an artificial intelligence research laboratory consisting of the for-profit OpenAI LP and the non-profit OpenAI Inc. 
+            description: OpenAI is an artificial intelligence research laboratory consisting of the for-profit OpenAI LP and the non-profit OpenAI Inc.
 
           - name: NASA
             homepage_url: https://www.nasa.gov/
@@ -369,57 +369,57 @@ categories:
             description:  One-stop platform for finding the best web design companies
 
           - name: Callr
-            homepage_url: https://www.callr.com/en 
-            logo: callr_logo.png 
+            homepage_url: https://www.callr.com/en
+            logo: callr_logo.png
             twitter: https://x.com/CALLR
-            crunchbase: https://www.crunchbase.com/organization/thecallr 
-            documentation_url: https://docs.callr.com/docs/getting-started-with-callr 
+            crunchbase: https://www.crunchbase.com/organization/thecallr
+            documentation_url: https://docs.callr.com/docs/getting-started-with-callr
             description: Callr empowers businesses to turn conversations into actionable data with AI-driven solutions. Our platform enhances the customer journey through seamless voice and SMS interactions, providing the tools to build meaningful connections and gain valuable insights. With Callr, you can optimize communications, drive engagement, and use data to drive your business forward.
 
           - name: D3 Security
             homepage_url: https://d3security.com/
-            logo: D3_logo_Rich_purple_black_RGB.webp 
+            logo: D3_logo_Rich_purple_black_RGB.webp
             twitter: https://x.com/D3Security
             crunchbase: https://www.crunchbase.com/organization/d3-security
-            documentation_url: https://docs.d3security.com/user-docs/17.2/data-formatter-usage-guidelines 
+            documentation_url: https://docs.d3security.com/user-docs/17.2/data-formatter-usage-guidelines
             description: D3 Security revolutionizes SecOps with its AI-driven autonomous Security Operations Center (ASOC) solution, Morpheus. Morpheus processes unlimited security alerts with superhuman thoroughness, performing the work of Tier 1-3 analysts with greater speed and depth than traditional approaches. It seamlessly integrates with existing security infrastructure, requiring no architectural changes. D3 Security's mission is to empower SOC teams with a comprehensive, AI-powered workspace for scalable incident response, conversational threat hunting, and dynamic playbook generation.
 
           - name: Adobe experience manager
-            homepage_url: https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-advanced-authoring/adaptive-form-json-schema-form-model 
+            homepage_url: https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-advanced-authoring/adaptive-form-json-schema-form-model
             logo: adobe.png
             crunchbase: https://www.crunchbase.com/organization/adobe-systems
-            description: The Adobe Experience Manager content management solution for building websites, mobile apps and forms supports creating adaptative forms using JSON Schema. 
-          
+            description: The Adobe Experience Manager content management solution for building websites, mobile apps and forms supports creating adaptative forms using JSON Schema.
+
           - name: Amazon EventBridge Schema Registry
-            logo: amazon.png 
+            logo: amazon.png
             homepage_url: https://aws.amazon.com/about-aws/
             description: Amazon EventBridge Schema Registry has support for JSON Schema, allowing customers to validate, annotate, and manipulate JSON documents conforming to JSON Schema Draft 4 specification.
 
           - name: Apiary
-            logo: apiary.png 
-            homepage_url: https://help.apiary.io/api_101/json-schema/?utm_source=awesome-jsonschema 
-            crunchbase: https://www.crunchbase.com/organization/apiary 
+            logo: apiary.png
+            homepage_url: https://help.apiary.io/api_101/json-schema/?utm_source=awesome-jsonschema
+            crunchbase: https://www.crunchbase.com/organization/apiary
             description: Apiary's interactive documentation is able to render JSON Schema documents associated with payloads.
-          
+
           - name: Assertible
-            logo: assertible.png 
+            logo: assertible.png
             homepage_url: https://assertible.com/json-schema-validation?utm_source=awesome-jsonschema
             twitter: https://x.com/AssertibleApp
             crunchbase: https://www.crunchbase.com/organization/assertible
             description: Assertible provides a free-to-use API to validate a JSON document against a JSON Schema and a service to test and monitor web services using JSON Schema.
 
           - name: Axway API Gateway
-            logo: axway.png 
+            logo: axway.png
             homepage_url: https://docs.axway.com/bundle/APIGateway_762_PolicyDevFilterReference_allOS_en_HTML5/page/Content/PolicyDevTopics/content_schema_json.htm?utm_source=awesome-jsonschema
             crunchbase: https://www.crunchbase.com/organization/axway
             description: The API Gateway can check that JavaScript Object Notation (JSON) messages conform to the format expected by a web service by validating requests against a specified JSON schema.
 
-          - name: Cloudflare 
-            logo: cloudflare.png 
+          - name: Cloudflare
+            logo: cloudflare.png
             homepage_url: https://blog.cloudflare.com/cloudflares-json-powered-documentation-generator/?utm_source=awesome-jsonschema/
             crunchbase: https://www.crunchbase.com/organization/cloudflare
-            description: The Cloudflare makes use of JSON Schema and Hyper Schema to keep track of their API endpoints. 
-          
+            description: The Cloudflare makes use of JSON Schema and Hyper Schema to keep track of their API endpoints.
+
           - name: Cloudflare Terraform
             logo: terraform-cloudflare.png
             homepage_url: https://www.infoq.com/news/2021/04/cloudflare-terraform/?utm_source=awesome-jsonschema
@@ -427,20 +427,20 @@ categories:
             description: The Cloudflare Terraform provider comes with a tool to generate Terraform configuration from existing Cloudflare resources that uses JSON Schema to map data between both technologies.
 
           - name: Confluent
-            logo: confluent.png 
-            homepage_url: https://docs.confluent.io/platform/current/schema-registry/fundamentals/serdes-develop/serdes-json.html 
-            crunchbase: https://www.crunchbase.com/organization/confluent 
+            logo: confluent.png
+            homepage_url: https://docs.confluent.io/platform/current/schema-registry/fundamentals/serdes-develop/serdes-json.html
+            crunchbase: https://www.crunchbase.com/organization/confluent
             description: JSON Schema can be configured with the Apache Kafka Java client and console tools to fail if the payload is not valid for the given schema.
 
           - name: ContentStack
-            logo: contentstack.png 
+            logo: contentstack.png
             homepage_url: https://www.contentstack.com/docs/developers/create-content-types/json-schema-for-creating-a-content-type?utm_source=awesome-jsonschema
             crunchbase: https://www.crunchbase.com/organization/contentstack
             description: The Contentstack CMS platform supports creating content types using JSON Schema.
 
           - name: Decisions
-            logo: decisions.png 
-            homepage_url: https://documentation.decisions.com/docs 
+            logo: decisions.png
+            homepage_url: https://documentation.decisions.com/docs
             description: The Decisions rules-driven business process automation platform support using JSON Schema to generate JSON deserializers.
 
           - name: DocSpring
@@ -449,19 +449,19 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/docspring
             description: The DocSpring service to automatically fill out PDF forms supports generating JSON Schema definitions for user-created templates.
 
-          - name: Drupal 
-            logo: drupal.png 
+          - name: Drupal
+            logo: drupal.png
             homepage_url: https://www.drupal.org/project/patternkit?utm_source=awesome-jsonschema
             crunchbase: https://www.crunchbase.com/organization/drupal
-            description: The Drupal Patternkit module uses JSON Schema to define pattern templates. 
+            description: The Drupal Patternkit module uses JSON Schema to define pattern templates.
 
-          - name: Form.io 
-            logo: formio.png 
-            homepage_url: https://form.io/ 
+          - name: Form.io
+            logo: formio.png
+            homepage_url: https://form.io/
             crunchbase: https://www.crunchbase.com/organization/form-io
             description: The Form.io online web form generator supports generating Angular.js forms using JSON Schema.
 
-          - name: Genomic Data Commons 
+          - name: Genomic Data Commons
             logo: GDC.png
             homepage_url: https://gdc.cancer.gov/developers/gdc-data-model?utm_source=awesome-jsonschema
             description: The Genomic Data Commons data model is defined using JSON Schema.
@@ -472,21 +472,21 @@ categories:
             twitter: https://x.com/hackolade
             description: The Hackolade data modelling service supports defining entities using JSON Schema.
 
-          - name: Heroku 
-            logo: heroku.png 
+          - name: Heroku
+            logo: heroku.png
             homepage_url: https://www.heroku.com/blog/json_schema_for_heroku_platform_api/?utm_source=awesome-jsonschema
             crunchbase: https://www.crunchbase.com/organization/heroku
             description: Heroku makes use of JSON Schema to publish machine-readable schema definitions for their public APIs.
 
-          - name: Human Cell Atlas 
-            logo: hcatlas.png 
+          - name: Human Cell Atlas
+            logo: hcatlas.png
             homepage_url: https://data.humancellatlas.org/
             crunchbase: https://www.crunchbase.com/organization/human-cell-atlas
             description: The open data generated by the Human Cell Atlas describes metadata structure using JSON Schema.
 
           - name: IBM App Connect
             logo: IBM.jpeg
-            homepage_url: https://www.ibm.com/docs/en/app-connect/11.0.0 
+            homepage_url: https://www.ibm.com/docs/en/app-connect/11.0.0
             twitter: https://x.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
             description: The Graphical Data Mapping editor can be used to create and transform JSON messages with the data model defined from a JSON schema.
@@ -507,10 +507,10 @@ categories:
             logo: jsonapi.png
             homepage_url: https://jsonapi.org/
             description: The JSON:API 1.0 and later specifications for building APIs in JSON use JSON Schema to define JSON:API responses.
-          
-          - name: JamF 
+
+          - name: JamF
             logo: Jamf.webp
-            homepage_url: https://learn.jamf.com/en-US/ 
+            homepage_url: https://learn.jamf.com/en-US/
             twitter: https://x.com/JamfSoftware
             crunchbase: https://www.crunchbase.com/organization/jamf-software
             description: The JamF Apple enterprise management service supports creating app manifests using JSON Schema.
@@ -533,7 +533,7 @@ categories:
             description: The Linux kernel uses JSON Schema to define Devicetree bindings.
 
           - name: MongoDB
-            logo: mongodb.jpg 
+            logo: mongodb.jpg
             homepage_url: https://www.mongodb.com/
             twitter: https://x.com/MongoDB
             description: MongoDB 3.6 and later support JSON Schema for querying data and defining collection constraints.
@@ -573,7 +573,7 @@ categories:
             homepage_url: https://www.iptc.org/std/ninjs/userguide/?utm_source=awesome-jsonschema
             description: NinJS standardises the representation of news content in JSON and maintains a JSON Schema document to help validate NinJS implementations.
 
-          - name: Open Policy Agent (OPA) 
+          - name: Open Policy Agent (OPA)
             logo: opa.png
             homepage_url: https://blog.openpolicyagent.org/enhanced-type-checking-for-opa-with-json-schema-annotations-826acb0f575
             crunchbase: https://www.crunchbase.com/organization/open-policy-agent
@@ -585,7 +585,7 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/ory
             description: The Ory Kratos identity & user management product relies on JSON Schema from configuration validation, documentation generation for defining identity schemas.
 
-          - name: RDA DMP Common Standard for machine-actionable Data Management Plans 
+          - name: RDA DMP Common Standard for machine-actionable Data Management Plans
             logo: rda.png
             homepage_url: https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard?utm_source=awesome-jsonschema
             description: The RDA DMP Common Standards Working Group maintains JSON Schemas to validate maDMP JSON documents.
@@ -601,7 +601,7 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/retool
             description: The Retool no-code platform supports generating web forms using JSON Schema.
 
-          - name: Serverless 
+          - name: Serverless
             logo: serverless.png
             homepage_url: https://www.serverless.com/framework/docs/configuration-validation?utm_source=awesome-jsonschema
             crunchbase: https://www.crunchbase.com/organization/serverless
@@ -648,7 +648,7 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/zuplo
             description: The Zuplo API gateway provides JSON Schema validation and supports generating API documentation out of OpenAPI specifications.
 
-          - name: nf-core 
+          - name: nf-core
             logo: nfc.png
             homepage_url: https://nf-co.re/tools/#pipeline-schema
             description: The nf-core Nextflow analysis pipelines collection uses JSON Schema to define the parameters used by Nextflow workflows.
@@ -672,7 +672,7 @@ categories:
             logo: supadata-logo-dark.svg
             homepage_url: https://www.sourcemeta.com/
             description: Supadata is one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval.
-  
+
           - name: JSON-tology
             logo: jst-node.svg
             homepage_url: https://studnicky.github.io/json-tology/
@@ -725,7 +725,7 @@ categories:
             twitter: https://x.com/n8n_io
             project_org: https://github.com/n8n-io/n8n
             description: n8n is an extendable workflow automation tool which enables you to connect anything to everything via its open, fair-code model.
-          
+
           - name: Apideck
             homepage_url: https://www.apideck.com/
             logo: apideck.webp
@@ -733,24 +733,24 @@ categories:
             twitter: https://x.com/apideck
             project_org: https://github.com/apideck-io
             description: Apideck is the leading Unified API that doesn't store sensitive customer data with scalable pricing.
-          
+
           - name: RxDB
             homepage_url: https://rxdb.info/
             logo: rxdb.svg
             twitter: https://x.com/rxdbjs
             project_org: https://github.com/pubkey/rxdb
             description:  RxDB is a local and reactive Database for JavaScript Applications
-          
+
           - name: Supadata
             homepage_url: https://supadata.ai/
             logo: supadata-logo-dark.svg
             project_org: https://github.com/supadata-ai
             description: Supadata is one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval.
 
-          - name: AnonStories
-            homepage_url: https://anonstories.com/
-            logo: anon-black.png
-            description: Watch Instagram stories anonymously and download content easily.
+          - name: TranscriptFetch
+            homepage_url: https://transcriptfetch.com/
+            logo: transcriptfetch-logo-dark.png
+            description: Fetch transcript data from YouTube, Instagram, and TikTok.
 
           - name: N-ix
             homepage_url: https://www.n-ix.com/
