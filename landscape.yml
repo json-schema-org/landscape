@@ -774,6 +774,11 @@ categories:
             logo: BairesDev_Logo_Orange Dark.svg
             description: BairesDev provides IT services and consulting.
 
+          - name: ZEIL TalentSeeker
+            homepage_url: https://www.zeil.com/
+            logo: zeil-logo.png
+            description: ZEIL TalentSeeker is a recruiting tool that helps hiring teams source, shortlist, and engage candidates.
+
       - name: Community
         items:
           - name: JSON Buddy
